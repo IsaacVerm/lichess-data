@@ -19,3 +19,40 @@ NR==1 {print $0,"my_score"; next}
 ' data/game_results.csv > data/game_results.tmp.csv
 
 mv data/game_results.tmp.csv data/game_results.csv
+
+# transform to desired output: id,status,opponent_id,my_color,my_score
+awk -F, '
+BEGIN {OFS=","}
+NR==1 {print "id","status","opponent_id","my_color","my_score"; next}
+{
+    id=$1; status=$2; white_id=$3; black_id=$5; my_score=$8
+    opponent_id=""; my_color=""
+    # strip quotes around fields if present
+    gsub(/^"|"$/, "", id)
+    gsub(/^"|"$/, "", status)
+    gsub(/^"|"$/, "", white_id)
+    gsub(/^"|"$/, "", black_id)
+    gsub(/^"|"$/, "", my_score)
+
+    if (white_id == "indexinator") {
+        opponent_id = black_id
+        my_color = "white"
+    } else if (black_id == "indexinator") {
+        opponent_id = white_id
+        my_color = "black"
+    } else {
+        # fallback: assume I played white if neither matches
+        opponent_id = (black_id != "") ? black_id : white_id
+        my_color = (black_id != "") ? "white" : "black"
+    }
+
+    # re-quote fields that may contain commas
+    if (opponent_id ~ /,/) opponent_id = "\"" opponent_id "\""
+    if (id ~ /,/) id = "\"" id "\""
+    if (status ~ /,/) status = "\"" status "\""
+
+    print id, status, opponent_id, my_color, my_score
+}
+' data/game_results.csv > data/game_results.tmp.csv
+
+mv data/game_results.tmp.csv data/game_results.csv
