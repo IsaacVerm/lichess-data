@@ -12,7 +12,7 @@ mkdir -p data
 
 # Fetch rated games from Lichess API
 # The API returns NDJSON (newline-delimited JSON)
-curl -s "https://lichess.org/api/games/user/$USERNAME?rated=true" \
+curl -s "https://lichess.org/api/games/user/$USERNAME?rated=true&clocks=true&evals=true" \
   -H "Accept: application/x-ndjson" \
   > data/games.ndjson
 
