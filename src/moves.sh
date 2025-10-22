@@ -5,4 +5,4 @@ jq -r '
   | (.analysis | map(.eval)) as $evals
   | [$repeated_id, $moves, .clocks, $evals] | transpose[]
   | @csv
-' data/games_example.ndjson > data/moves.csv
+' data/games.ndjson > data/moves.csv
