@@ -7,6 +7,7 @@ jq -r '
   | (.clocks[:-1]) as $clocks 
   | ([range(0, $moves | length) | $id]) as $repeated_id
   | (.analysis | map(.eval)) as $evals
-  | [$repeated_id, $moves, $clocks, $evals] | transpose[]
+  | (.analysis | map(if .judgment.name == "Blunder" then 1 else 0 end)) as $blunders
+  | [$repeated_id, $moves, $clocks, $evals, $blunders] | transpose[]
   | @csv
 ' data/games.ndjson > data/moves.csv
