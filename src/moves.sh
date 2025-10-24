@@ -1,5 +1,5 @@
 # create header
-echo 'game_id,ply,url_ply,move,clock,eval,type_of_mistake,end_opening' > data/moves.csv
+echo 'game_id,ply,url_ply,move,color,clock,eval,type_of_mistake,end_opening' > data/moves.csv
 
 # the last element in clocks might contain the time of resigning which we don't care about
 # id has to be variable because if not you try to access index of the loop in $repeated_id so 0.id instead of json.id
@@ -13,6 +13,7 @@ jq -r '
       $i+1,
       "https://lichess.org/" + $id + "#" + ($i+1 | tostring),
       $moves[$i],
+      (if (($i+1) % 2 == 1) then "white" else "black" end),
       .clocks[$i],
       .analysis[$i].eval,
       .analysis[$i].judgment.name,
