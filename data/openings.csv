@@ -1,491 +1,139 @@
 eco,name,ply
-"A00","Anderssen's Opening",1
-"A00","Clemenz Opening",1
-"A00","Creepy Crawly Formation: Classical Defense",4
-"A00","Grob Opening",1
-"A00","Grob Opening: Spike, Hurst Attack",5
-"A00","Hungarian Opening",1
-"A00","Hungarian Opening: Indian Defense",2
-"A00","Kádas Opening",1
-"A00","Mieses Opening",1
-"A00","Mieses Opening: Reversed Rat",2
-"A00","Polish Opening",1
-"A00","Polish Opening: Bugayev Advance Variation",5
-"A00","Polish Opening: Czech Defense",4
-"A00","Polish Opening: King's Indian Variation",4
-"A00","Saragossa Opening",1
-"A00","Valencia Opening",3
-"A00","Van Geet Opening: Reversed Nimzowitsch",2
-"A00","Van't Kruijs Opening",1
-"A00","Ware Opening",1
-"A01","Nimzo-Larsen Attack: Classical Variation",2
-"A01","Nimzo-Larsen Attack: Indian Variation",2
-"A01","Nimzo-Larsen Attack: Modern Variation",4
-"A01","Nimzo-Larsen Attack: Modern Variation",5
-"A01","Nimzo-Larsen Attack: Pachman Gambit",5
-"A02","Bird Opening",1
-"A03","Bird Opening: Dutch Variation",2
-"A04","Zukertort Opening: Black Mustang Defense",2
-"A04","Zukertort Opening: Kingside Fianchetto",2
-"A04","Zukertort Opening: Ross Gambit",2
-"A04","Zukertort Opening: Wade Defense",4
-"A05","Zukertort Opening",2
-"A05","Zukertort Opening: Lemberger Gambit",3
-"A06","Nimzo-Larsen Attack: Classical Variation",3
-"A06","Zukertort Opening",2
-"A06","Zukertort Opening: Old Indian Attack",3
-"A06","Zukertort Opening: Tennison Gambit",3
-"A07","King's Indian Attack",3
-"A09","Réti Opening: Réti Accepted",4
-"A10","English Opening: Great Snake Variation",2
-"A15","English Opening: Anglo-Indian Defense",2
-"A15","English Opening: Anglo-Indian Defense, Scandinavian Defense, Exchange Variation",6
-"A16","English Opening: Anglo-Grünfeld Defense",4
-"A16","English Opening: Anglo-Indian Defense, Queen's Knight Variation",3
-"A20","English Opening: King's English Variation",2
-"A21","English Opening: King's English Variation, Reversed Sicilian",3
-"A22","English Opening: King's English Variation, Two Knights Variation",4
-"A22","English Opening: King's English Variation, Two Knights Variation, Reversed Dragon",6
-"A25","English Opening: King's English Variation, Reversed Closed Sicilian",4
-"A28","English Opening: Four Knights System, Nimzowitsch Variation",7
-"A28","English Opening: King's English Variation, Four Knights Variation",6
-"A40","Englund Gambit",2
-"A40","Englund Gambit Declined: Reversed French",3
-"A40","Mikenas Defense",2
-"A40","Polish Defense",2
-"A45","Amazon Attack: Siberian Attack",5
-"A45","Indian Defense",2
-"A45","Indian Defense: Omega Gambit",3
-"A45","Indian Defense: Pawn Push Variation",3
-"A45","Indian Defense: Reversed Chigorin Defense",4
-"A45","Paleface Attack",3
-"A45","Queen's Pawn Game: Chigorin Variation",4
-"A45","Trompowsky Attack",3
-"A45","Trompowsky Attack: Edge Variation",5
-"A45","Trompowsky Attack: Raptor Variation",5
-"A46","Indian Defense: Czech-Indian",4
-"A46","Indian Defense: Knights Variation",3
-"A46","Queen's Pawn Game: Veresov Attack, Classical Defense",7
-"A48","East Indian Defense",4
-"A48","Indian Defense: Colle System, King's Indian Variation",8
-"A48","London System",5
-"A48","London System",8
-"A48","London System, with Bd3",9
-"A48","London System, with Be2",10
-"A48","Torre Attack: Fianchetto Defense",5
-"A50","Indian Defense: Normal Variation",3
-"A53","Old Indian Defense",4
-"A53","Old Indian Defense: Janowski Variation",6
-"A80","Dutch Defense: Raphael Variation",3
-"A85","Dutch Defense: Queen's Knight Variation",5
-"B00","Barnes Defense",2
-"B00","Borg Defense",2
-"B00","Duras Gambit",2
-"B00","Goldsmith Defense",2
-"B00","King's Pawn Game",1
-"B00","Nimzowitsch Defense",2
-"B00","Nimzowitsch Defense",3
-"B00","Nimzowitsch Defense: Breyer Variation",6
-"B00","Nimzowitsch Defense: Declined Variation",3
-"B00","Nimzowitsch Defense: French Connection",4
-"B00","Nimzowitsch Defense: Kennedy Variation, Linksspringer Variation",5
-"B00","Nimzowitsch Defense: Pseudo-Spanish Variation",3
-"B00","Nimzowitsch Defense: Scandinavian Variation, Bogoljubow Variation",6
-"B00","Nimzowitsch Defense: Scandinavian Variation, Exchange Variation, Marshall Gambit",7
-"B00","Nimzowitsch Defense: Williams Variation",4
-"B00","Owen Defense",2
-"B00","Owen Defense: Guatemala Defense",4
-"B00","Owen Defense: Smith Gambit",5
-"B00","Pirc Defense",2
-"B00","Pirc Defense",3
-"B00","Pirc Defense",4
-"B00","St. George Defense",2
-"B00","St. George Defense: Polish Variation",8
-"B00","Ware Defense",2
-"B01","Scandinavian Defense",2
-"B01","Scandinavian Defense: Anderssen Counterattack",8
-"B01","Scandinavian Defense: Blackburne-Kloosterboer Gambit",4
-"B01","Scandinavian Defense: Bronstein Variation",10
-"B01","Scandinavian Defense: Gubinsky-Melts Defense",6
-"B01","Scandinavian Defense: Main Line",6
-"B01","Scandinavian Defense: Main Line, Mieses Variation",10
-"B01","Scandinavian Defense: Main Line, Mieses Variation",8
-"B01","Scandinavian Defense: Marshall Variation",6
-"B01","Scandinavian Defense: Mieses-Kotroc Variation",4
-"B01","Scandinavian Defense: Modern Variation",4
-"B01","Scandinavian Defense: Modern Variation",5
-"B01","Scandinavian Defense: Modern Variation, Gipslis Variation",8
-"B01","Scandinavian Defense: Schiller-Pytel Variation",8
-"B01","Scandinavian Defense: Valencian Variation",6
-"B01","Scandinavian Defense: Valencian Variation, Ilundain Variation",10
-"B01","Scandinavian Defense: Valencian Variation, Main Line",10
-"B02","Alekhine Defense",2
-"B02","Alekhine Defense: Maróczy Variation",3
-"B02","Alekhine Defense: Normal Variation",4
-"B02","Alekhine Defense: Scandinavian Variation",4
-"B02","Alekhine Defense: Two Pawns Attack",5
-"B02","Alekhine Defense: Two Pawns Attack, Lasker Variation",7
-"B03","Alekhine Defense",5
-"B03","Alekhine Defense",6
-"B03","Alekhine Defense: Balogh Variation",7
-"B03","Alekhine Defense: Exchange Variation",9
-"B04","Alekhine Defense: Modern Variation",7
-"B04","Alekhine Defense: Modern Variation, Larsen-Haakert Variation",8
-"B05","Alekhine Defense: Modern Variation, Main Line",8
-"B06","Modern Defense",2
-"B06","Modern Defense",4
-"B06","Modern Defense: Mongredien Defense, with Nc3",6
-"B06","Modern Defense: Mongredien Defense, with Nf3",6
-"B06","Modern Defense: Standard Line",5
-"B06","Modern Defense: Two Knights Variation",7
-"B06","Modern Defense: Two Knights Variation, Suttles Variation",8
-"B07","Czech Defense",6
-"B07","King's Pawn Game: Maróczy Defense",4
-"B07","Pirc Defense",6
-"B07","Pirc Defense: Byrne Variation",7
-"B08","Pirc Defense: Classical Variation",8
-"B08","Pirc Defense: Classical Variation, Quiet System",9
-"B09","Pirc Defense: Austrian Attack, Kurajica Variation",11
-"B09","Pirc Defense: Austrian Attack, Weiss Variation",11
-"B10","Caro-Kann Defense",2
-"B10","Caro-Kann Defense",3
-"B10","Caro-Kann Defense",4
-"B10","Caro-Kann Defense: Hillbilly Attack",3
-"B10","Caro-Kann Defense: Two Knights Attack",5
-"B12","Caro-Kann Defense",3
-"B12","Caro-Kann Defense",4
-"B12","Caro-Kann Defense: Advance Variation",5
-"B12","Caro-Kann Defense: Advance Variation, Botvinnik-Carls Defense",6
-"B12","Caro-Kann Defense: Advance Variation, Short Variation",7
-"B12","Caro-Kann Defense: Maróczy Variation",5
-"B13","Caro-Kann Defense: Exchange Variation",5
-"B13","Caro-Kann Defense: Exchange Variation",8
-"B15","Caro-Kann Defense",5
-"B15","Caro-Kann Defense: Alekhine Gambit",9
-"B15","Caro-Kann Defense: Campomanes Attack",6
-"B15","Caro-Kann Defense: Gurgenidze System",6
-"B15","Caro-Kann Defense: Main Line",7
-"B15","Caro-Kann Defense: Tartakower Variation",10
-"B18","Caro-Kann Defense: Classical Variation",8
-"B21","Sicilian Defense: McDonnell Attack",3
-"B21","Sicilian Defense: Smith-Morra Gambit",3
-"B22","Sicilian Defense: Alapin Variation",3
-"B23","Sicilian Defense: Closed",3
-"B23","Sicilian Defense: Closed",4
-"B23","Sicilian Defense: Closed, Traditional",4
-"B27","Sicilian Defense",3
-"B27","Sicilian Defense: Bücker Variation",4
-"B27","Sicilian Defense: Hyperaccelerated Fianchetto",5
-"B27","Sicilian Defense: Hyperaccelerated Pterodactyl",6
-"B28","Sicilian Defense: O'Kelly Variation, Maróczy Bind, Robatsch Line",6
-"B28","Sicilian Defense: O'Kelly Variation, Yerevan System",5
-"B29","Sicilian Defense: Nimzowitsch Variation, Closed Variation",5
-"B30","Sicilian Defense: Nyezhmetdinov-Rossolimo Attack",5
-"B30","Sicilian Defense: Old Sicilian",4
-"B32","Sicilian Defense: Accelerated Dragon",8
-"B32","Sicilian Defense: Franco-Sicilian Variation",6
-"B32","Sicilian Defense: Godiva Variation",8
-"B32","Sicilian Defense: Löwenthal Variation",8
-"B32","Sicilian Defense: Nimzo-American Variation",8
-"B32","Sicilian Defense: Open",5
-"B32","Sicilian Defense: Open",7
-"B33","Sicilian Defense: Lasker-Pelikan Variation, Exchange Variation",11
-"B33","Sicilian Defense: Lasker-Pelikan Variation, Retreat Variation",11
-"B33","Sicilian Defense: Open",8
-"B34","Sicilian Defense: Accelerated Dragon, Exchange Variation",9
-"B34","Sicilian Defense: Accelerated Dragon, Modern Variation",9
-"B40","Sicilian Defense: Drazic Variation",6
-"B40","Sicilian Defense: French Variation",4
-"B40","Sicilian Defense: Kveinis Variation",8
-"B40","Sicilian Defense: Marshall Counterattack",6
-"B40","Sicilian Defense: Paulsen-Basman Defense",8
-"B40","Sicilian Defense: Pin Variation",10
-"B42","Sicilian Defense: Kan Variation, Modern Variation",9
-"B43","Sicilian Defense: Kan Variation, Knight Variation",9
-"B44","Sicilian Defense: Taimanov Variation",8
-"B45","Sicilian Defense: Four Knights Variation",10
-"B45","Sicilian Defense: Four Knights Variation, Exchange Variation",11
-"B45","Sicilian Defense: Taimanov Variation",9
-"B46","Sicilian Defense: Taimanov Variation",10
-"B48","Sicilian Defense: Taimanov Variation, Bastrikov Variation, English Attack",11
-"B49","Sicilian Defense: Taimanov Variation, Bastrikov Variation",13
-"B50","Sicilian Defense",5
-"B50","Sicilian Defense",6
-"B50","Sicilian Defense: Modern Variations",4
-"B54","Sicilian Defense: Modern Variations, Main Line",8
-"B56","Sicilian Defense: Classical Variation",10
-"B56","Sicilian Defense: Yates Variation",11
-"B70","Sicilian Defense: Dragon Variation",10
-"B76","Sicilian Defense: Dragon Variation, Yugoslav Attack, Modern Line",17
-"B80","Sicilian Defense: Scheveningen Variation",10
-"B84","Sicilian Defense: Scheveningen Variation, Classical Variation",12
-"B90","Sicilian Defense: Najdorf Variation",10
-"B95","Sicilian Defense: Najdorf Variation",12
-"C00","French Defense",2
-"C00","French Defense: Carlson Gambit",7
-"C00","French Defense: Franco-Sicilian Defense",4
-"C00","French Defense: King's Indian Attack",3
-"C00","French Defense: Knight Variation",3
-"C00","French Defense: Mediterranean Defense",4
-"C00","French Defense: Normal Variation",3
-"C00","French Defense: Queen's Knight",3
-"C00","French Defense: St. George Defense",4
-"C00","French Defense: Two Knights Variation",5
-"C00","Rat Defense: Small Center Defense",4
-"C01","French Defense: Exchange Variation",7
-"C01","French Defense: Exchange Variation, Svenonius Variation",9
-"C02","French Defense: Advance Variation",5
-"C02","French Defense: Advance Variation",7
-"C02","French Defense: Advance Variation, Nimzowitsch System",7
-"C02","French Defense: Advance Variation, Paulsen Attack",9
-"C10","French Defense: Hecht-Reefschläger Variation",6
-"C10","French Defense: Marshall Gambit",6
-"C10","French Defense: Rubinstein Variation",6
-"C10","French Defense: Rubinstein Variation, Blackburne Defense",8
-"C11","French Defense: Classical Variation",7
-"C11","French Defense: Classical Variation, Delayed Exchange Variation",7
-"C11","French Defense: Classical Variation, Steinitz Variation",7
-"C11","French Defense: Classical Variation, Swiss Variation",7
-"C13","French Defense: Classical Variation, Frankfurt Variation",12
-"C13","French Defense: Classical Variation, Richter Attack",9
-"C20","English Opening: The Whale",3
-"C20","King's Pawn Game",2
-"C20","King's Pawn Game: King's Head Opening",3
-"C20","King's Pawn Game: King's Head Opening",5
-"C20","King's Pawn Game: Leonardis Variation",3
-"C20","King's Pawn Game: MacLeod Attack",3
-"C20","King's Pawn Game: Mengarini's Opening",3
-"C20","King's Pawn Game: Napoleon Attack",3
-"C20","King's Pawn Game: Wayward Queen Attack",3
-"C20","King's Pawn Game: Wayward Queen Attack, Kiddie Countergambit",4
-"C20","King's Pawn Opening",3
-"C21","Center Game Accepted",4
-"C21","Center Game: Halasz-McDonnell Gambit",5
-"C21","Center Game: Kieseritzky Variation",5
-"C21","Center Game: von der Lasa Gambit",5
-"C21","Danish Gambit",5
-"C21","Danish Gambit Accepted",6
-"C21","Danish Gambit Declined: Sörensen Defense",6
-"C22","Center Game: Berger Variation",8
-"C22","Center Game: Hall Variation",7
-"C22","Center Game: Normal Variation",6
-"C22","Center Game: Paulsen Attack Variation",7
-"C23","Bishop's Opening",3
-"C24","Bishop's Opening: Berlin Defense",4
-"C24","Bishop's Opening: Ponziani Gambit",5
-"C24","Bishop's Opening: Vienna Hybrid",7
-"C25","Vienna Gambit, with Max Lange Defense",5
-"C25","Vienna Gambit, with Max Lange Defense: Cunningham Defense",8
-"C25","Vienna Gambit, with Max Lange Defense: Knight Variation",7
-"C25","Vienna Gambit, with Max Lange Defense: Pierce Gambit",9
-"C25","Vienna Gambit, with Max Lange Defense: Steinitz Gambit",7
-"C25","Vienna Game",3
-"C25","Vienna Game: Anderssen Defense",4
-"C25","Vienna Game: Max Lange Defense",4
-"C25","Vienna Game: Omaha Gambit",5
-"C26","Vienna Game: Falkbeer Variation",4
-"C26","Vienna Game: Mengarini Variation",5
-"C26","Vienna Game: Stanley Variation",5
-"C26","Vienna Game: Stanley Variation, Reversed Spanish",6
-"C27","Bishop's Opening: Boden-Kieseritzky Gambit",7
-"C28","Bishop's Opening: Vienna Hybrid, Hromádka Variation",9
-"C28","Vienna Game: Stanley Variation, Three Knights Variation",6
-"C29","Vienna Game: Vienna Gambit",5
-"C29","Vienna Game: Vienna Gambit, Main Line",6
-"C30","King's Gambit Declined: Queen's Knight Defense",4
-"C31","King's Gambit Declined: Falkbeer Countergambit",4
-"C33","King's Gambit Accepted: Bishop's Gambit, Maurian Defense",6
-"C33","King's Gambit Accepted: Villemson Gambit",5
-"C34","King's Gambit Accepted: Becker Defense",6
-"C34","King's Gambit Accepted: King's Knight's Gambit",6
-"C34","King's Gambit Accepted: MacLeod Defense",6
-"C36","King's Gambit Accepted: Modern Defense",7
-"C37","King's Gambit Accepted: Ghulam-Kassim Gambit",11
-"C37","King's Gambit Accepted: Ghulam-Kassim Gambit",9
-"C37","King's Gambit Accepted: Lolli Gambit",9
-"C37","King's Gambit Accepted: Muzio Gambit, Wild Muzio Gambit",9
-"C37","King's Gambit Accepted: Sörensen Gambit",9
-"C39","King's Gambit Accepted: Kieseritzky Gambit, Kolisch Defense",10
-"C40","King's Knight Opening",3
-"C40","King's Pawn Game: Busch-Gass Gambit",4
-"C40","King's Pawn Game: Damiano Defense",4
-"C40","King's Pawn Game: Gunderam Gambit",4
-"C40","King's Pawn Game: McConnell Defense",4
-"C41","Philidor Defense",4
-"C41","Philidor Defense",5
-"C41","Philidor Defense",6
-"C41","Philidor Defense: Exchange Variation",7
-"C41","Philidor Defense: Exchange Variation",8
-"C41","Philidor Defense: Larsen Variation",8
-"C41","Philidor Defense: Lion Variation",8
-"C41","Philidor Defense: Nimzowitsch Variation",7
-"C41","Philidor Defense: Philidor Countergambit, Zukertort Variation",7
-"C42","Petrov's Defense",4
-"C42","Petrov's Defense",6
-"C42","Petrov's Defense",7
-"C42","Petrov's Defense",8
-"C42","Petrov's Defense: Classical Attack",9
-"C42","Petrov's Defense: Cochrane Gambit, Bishop Check Line",9
-"C42","Petrov's Defense: Cochrane Gambit, Center Variation",9
-"C42","Petrov's Defense: Cozio Attack",9
-"C42","Petrov's Defense: French Attack",9
-"C42","Petrov's Defense: Italian Variation",5
-"C42","Petrov's Defense: Nimzowitsch Attack",9
-"C42","Petrov's Defense: Paulsen Attack",7
-"C42","Petrov's Defense: Stafford Gambit",8
-"C42","Petrov's Defense: Three Knights Game",5
-"C43","Bishop's Opening: Urusov Gambit",7
-"C43","Petrov's Defense: Modern Attack",5
-"C43","Petrov's Defense: Modern Attack",6
-"C44","King's Knight Opening: Normal Variation",4
-"C44","King's Pawn Game: Tayler Opening",5
-"C44","Ponziani Opening",5
-"C44","Ponziani Opening: Jaenisch Counterattack",6
-"C44","Ponziani Opening: Jaenisch Counterattack",7
-"C44","Ponziani Opening: Jaenisch Counterattack",8
-"C44","Ponziani Opening: Jaenisch Counterattack",9
-"C44","Ponziani Opening: Neumann Gambit",7
-"C44","Scotch Game",5
-"C44","Scotch Game",6
-"C44","Scotch Game: Benima Defense",8
-"C44","Scotch Game: Göring Gambit",7
-"C44","Scotch Game: Göring Gambit, Double Pawn Sacrifice",9
-"C44","Scotch Game: Göring Gambit, Main Line",10
-"C44","Scotch Game: Lolli Variation",9
-"C44","Scotch Game: Scotch Gambit",7
-"C44","Scotch Game: Scotch Gambit, Advance Variation",9
-"C44","Scotch Game: Scotch Gambit, Dubois Réti Defense",8
-"C44","Scotch Game: Scotch Gambit, Göring Gambit Declined",8
-"C44","Scotch Game: Scotch Gambit, London Defense",8
-"C45","Scotch Game",7
-"C45","Scotch Game: Classical Variation",8
-"C45","Scotch Game: Mieses Variation",11
-"C45","Scotch Game: Schmidt Variation",8
-"C46","Three Knights Opening",5
-"C46","Three Knights Opening",6
-"C46","Three Knights Opening: Schlechter Variation",8
-"C46","Three Knights Opening: Steinitz Defense",6
-"C46","Three Knights Opening: Winawer Defense",6
-"C47","Four Knights Game",6
-"C47","Four Knights Game: Glek System",7
-"C47","Four Knights Game: Gunsberg Variation",7
-"C47","Four Knights Game: Halloween Gambit",7
-"C47","Four Knights Game: Italian Variation",7
-"C47","Four Knights Game: Italian Variation, Noa Gambit",9
-"C47","Four Knights Game: Scotch Variation",7
-"C47","Four Knights Game: Scotch Variation Accepted",8
-"C47","Four Knights Game: Scotch Variation, Belgrade Gambit",9
-"C47","Four Knights Game: Scotch Variation, Schmid Defense",10
-"C48","Four Knights Game: Spanish Variation",7
-"C48","Four Knights Game: Spanish Variation, Classical Variation",8
-"C48","Four Knights Game: Spanish Variation, Ranken Variation",9
-"C48","Four Knights Game: Spanish Variation, Rubinstein Variation Accepted",9
-"C49","Four Knights Game: Spanish Variation, Double Spanish",11
-"C49","Four Knights Game: Spanish Variation, Double Spanish",8
-"C50","Four Knights Game: Italian Variation",12
-"C50","Four Knights Game: Italian Variation",8
-"C50","Italian Game",5
-"C50","Italian Game",9
-"C50","Italian Game: Anti-Fried Liver Defense",6
-"C50","Italian Game: Classical Variation, Albin Gambit",9
-"C50","Italian Game: Giuoco Pianissimo",11
-"C50","Italian Game: Giuoco Pianissimo",7
-"C50","Italian Game: Giuoco Pianissimo, Canal Variation",11
-"C50","Italian Game: Giuoco Pianissimo, Italian Four Knights Variation",9
-"C50","Italian Game: Giuoco Pianissimo, Normal",8
-"C50","Italian Game: Giuoco Piano",6
-"C50","Italian Game: Paris Defense",6
-"C54","Italian Game: Classical Variation, Giuoco Pianissimo",12
-"C54","Italian Game: Classical Variation, Giuoco Pianissimo",9
-"C54","Italian Game: Classical Variation, Giuoco Pianissimo, with d6",10
-"C54","Italian Game: Classical Variation, Giuoco Pianissimo, with h6",10
-"C54","Italian Game: Giuoco Piano, Greco's Attack",13
-"C55","Italian Game: Two Knights Defense",10
-"C55","Italian Game: Two Knights Defense",6
-"C55","Italian Game: Two Knights Defense, Modern Bishop's Opening",7
-"C55","Italian Game: Two Knights Defense, Modern Bishop's Opening",8
-"C56","Italian Game: Scotch Gambit, de Riviere Defense",10
-"C56","Italian Game: Scotch Gambit, Janowski Defense",10
-"C56","Italian Game: Scotch Invitation Declined",8
-"C56","Italian Game: Two Knights Defense, Max Lange Attack",11
-"C56","Italian Game: Two Knights Defense, Open Variation",7
-"C56","Italian Game: Two Knights Defense, Perreux Variation",9
-"C58","Italian Game: Two Knights Defense",15
-"C58","Italian Game: Two Knights Defense, Polerio Defense",10
-"C58","Italian Game: Two Knights Defense, Polerio Defense, Bishop Check Line",11
-"C58","Italian Game: Two Knights Defense, Polerio Defense, Bogoljubow Variation",15
-"C58","Italian Game: Two Knights Defense, Polerio Defense, Kieseritzky Variation",11
-"C59","Italian Game: Two Knights Defense, Polerio Defense, Suhle Defense",16
-"C60","Ruy Lopez",5
-"C60","Ruy Lopez: Cozio Defense",6
-"C60","Ruy Lopez: Nürnberg Variation",6
-"C62","Ruy Lopez: Steinitz Defense",6
-"C64","Ruy Lopez: Classical Variation",6
-"C65","Ruy Lopez: Berlin Defense",6
-"C65","Ruy Lopez: Berlin Defense, Anderssen Variation",9
-"C66","Ruy Lopez: Berlin Defense, Closed Showalter Variation",13
-"C66","Ruy Lopez: Berlin Defense, Closed Wolf Variation",12
-"C66","Ruy Lopez: Berlin Defense, Improved Steinitz Defense",8
-"C68","Ruy Lopez: Exchange Variation, Lutikov Variation",8
-"C69","Ruy Lopez: Exchange Variation, King's Bishop Variation",10
-"C71","Ruy Lopez: Morphy Defense, Modern Steinitz Defense",8
-"C71","Ruy Lopez: Morphy Defense, Modern Steinitz Defense",9
-"C77","Ruy Lopez: Morphy Defense, Tarrasch Variation",9
-"D00","Amazon Attack",3
-"D00","Blackmar-Diemer Gambit",6
-"D00","Blackmar-Diemer Gambit Accepted: Schlutter Defense",10
-"D00","Blackmar-Diemer Gambit Declined: Elbert Countergambit",8
-"D00","Blackmar-Diemer Gambit Declined: Lamb Defense",8
-"D00","Blackmar-Diemer Gambit: Lemberger Countergambit",6
-"D00","Blackmar-Diemer Gambit: von Popiel Gambit",7
-"D00","Blackmar-Diemer Gambit: Zeller Defense, Soller Attack",9
-"D00","Queen's Pawn Game",2
-"D00","Queen's Pawn Game",3
-"D00","Queen's Pawn Game",4
-"D00","Queen's Pawn Game: Accelerated London System",3
-"D00","Queen's Pawn Game: Chigorin Variation",3
-"D00","Queen's Pawn Game: Chigorin Variation, Fianchetto Defense",6
-"D00","Queen's Pawn Game: Levitsky Attack",3
-"D00","Queen's Pawn Game: Mason Attack",3
-"D00","Queen's Pawn Game: Stonewall Attack",5
-"D01","Rapport-Jobava System",5
-"D01","Rapport-Jobava System",6
-"D02","Queen's Pawn Game: Chigorin Variation",4
-"D02","Queen's Pawn Game: London System",5
-"D02","Queen's Pawn Game: Symmetrical Variation",4
-"D02","Queen's Pawn Game: Symmetrical Variation, Pseudo-Catalan",5
-"D03","Queen's Pawn Game: Torre Attack",5
-"D04","Queen's Pawn Game: Colle System",5
-"D04","Queen's Pawn Game: Colle System, Grünfeld Formation",8
-"D06","Queen's Gambit Declined: Marshall Defense",4
-"D07","Queen's Gambit Declined: Chigorin Defense, Janowski Variation",7
-"D07","Queen's Gambit Declined: Chigorin Defense, Modern Gambit",8
-"D20","Queen's Gambit Accepted",4
-"D20","Queen's Gambit Accepted: Accelerated Mannheim Variation",5
-"D20","Queen's Gambit Accepted: Central Variation, McDonnell Defense",6
-"D20","Queen's Gambit Accepted: Old Variation",5
-"D25","Queen's Gambit Accepted: Janowski-Larsen Variation",8
-"D30","Queen's Gambit Declined",4
-"D31","Semi-Slav Defense: Accelerated Move Order",6
-"D31","Semi-Slav Defense: Marshall Gambit",7
-"D32","Tarrasch Defense: Symmetrical Variation",10
-"D35","Queen's Gambit Declined: Exchange Variation, Positional Variation",9
-"D35","Queen's Gambit Declined: Normal Defense",6
-"D37","Queen's Gambit Declined: Barmen Variation",8
-"D45","Semi-Slav Defense: Main Line",9
-"E51","Nimzo-Indian Defense: Normal Variation, Ragozin Variation",10
-"E60","Indian Defense: Anti-Grünfeld, Advance Variation",5
-"E60","Indian Defense: West Indian Defense",4
-"E60","King's Indian Defense: Normal Variation, King's Knight Variation",5
-"E61","King's Indian Defense",5
-"E61","King's Indian Defense: Semi-Classical Variation",11
-"E61","King's Indian Defense: Smyslov Variation",9
-"E70","King's Indian Defense: Accelerated Averbakh Variation",9
-"E70","King's Indian Defense: Kramer Variation",9
-"E70","King's Indian Defense: Normal Variation",8
-"E71","King's Indian Defense: Makogonov Variation",9
-"E76","King's Indian Defense: Four Pawns Attack",9
-"E90","King's Indian Defense: Larsen Variation",11
-"E90","King's Indian Defense: Normal Variation, Rare Defenses",9
-"E90","King's Indian Defense: Zinnowitz Variation",11
-"E91","King's Indian Defense: Orthodox Variation",11
+A00,Anderssen's Opening,1
+A01,Nimzo-Larsen Attack: Classical Variation,2
+A02,Bird Opening,1
+A03,Bird Opening: Dutch Variation,2
+A04,Zukertort Opening: Black Mustang Defense,2
+A05,Zukertort Opening,2
+A06,Zukertort Opening,2
+A07,King's Indian Attack,3
+A09,Réti Opening: Réti Accepted,4
+A10,English Opening: Great Snake Variation,2
+A15,English Opening: Anglo-Indian Defense,2
+A16,"English Opening: Anglo-Indian Defense, Queen's Knight Variation",3
+A20,English Opening: King's English Variation,2
+A21,"English Opening: King's English Variation, Reversed Sicilian",3
+A22,"English Opening: King's English Variation, Two Knights Variation",4
+A25,"English Opening: King's English Variation, Reversed Closed Sicilian",4
+A28,"English Opening: King's English Variation, Four Knights Variation",6
+A40,Englund Gambit,2
+A45,Indian Defense,2
+A46,Indian Defense: Knights Variation,3
+A48,"London System, with Be2",10
+A50,Indian Defense: Normal Variation,3
+A53,Old Indian Defense,4
+A80,Dutch Defense: Raphael Variation,3
+A85,Dutch Defense: Queen's Knight Variation,5
+B00,King's Pawn Game,1
+B01,Scandinavian Defense: Bronstein Variation,10
+B02,Alekhine Defense,2
+B03,Alekhine Defense,5
+B04,Alekhine Defense: Modern Variation,7
+B05,"Alekhine Defense: Modern Variation, Main Line",8
+B06,Modern Defense,2
+B07,King's Pawn Game: Maróczy Defense,4
+B08,Pirc Defense: Classical Variation,8
+B09,"Pirc Defense: Austrian Attack, Kurajica Variation",11
+B10,Caro-Kann Defense,2
+B12,Caro-Kann Defense,3
+B13,Caro-Kann Defense: Exchange Variation,5
+B15,Caro-Kann Defense: Tartakower Variation,10
+B18,Caro-Kann Defense: Classical Variation,8
+B21,Sicilian Defense: McDonnell Attack,3
+B22,Sicilian Defense: Alapin Variation,3
+B23,Sicilian Defense: Closed,3
+B27,Sicilian Defense,3
+B28,"Sicilian Defense: O'Kelly Variation, Yerevan System",5
+B29,"Sicilian Defense: Nimzowitsch Variation, Closed Variation",5
+B30,Sicilian Defense: Old Sicilian,4
+B32,Sicilian Defense: Open,5
+B33,"Sicilian Defense: Lasker-Pelikan Variation, Exchange Variation",11
+B34,"Sicilian Defense: Accelerated Dragon, Exchange Variation",9
+B40,Sicilian Defense: Pin Variation,10
+B42,"Sicilian Defense: Kan Variation, Modern Variation",9
+B43,"Sicilian Defense: Kan Variation, Knight Variation",9
+B44,Sicilian Defense: Taimanov Variation,8
+B45,Sicilian Defense: Four Knights Variation,10
+B46,Sicilian Defense: Taimanov Variation,10
+B48,"Sicilian Defense: Taimanov Variation, Bastrikov Variation, English Attack",11
+B49,"Sicilian Defense: Taimanov Variation, Bastrikov Variation",13
+B50,Sicilian Defense: Modern Variations,4
+B54,"Sicilian Defense: Modern Variations, Main Line",8
+B56,Sicilian Defense: Classical Variation,10
+B70,Sicilian Defense: Dragon Variation,10
+B76,"Sicilian Defense: Dragon Variation, Yugoslav Attack, Modern Line",17
+B80,Sicilian Defense: Scheveningen Variation,10
+B84,"Sicilian Defense: Scheveningen Variation, Classical Variation",12
+B90,Sicilian Defense: Najdorf Variation,10
+B95,Sicilian Defense: Najdorf Variation,12
+C00,French Defense,2
+C01,French Defense: Exchange Variation,7
+C02,French Defense: Advance Variation,5
+C10,French Defense: Hecht-Reefschläger Variation,6
+C11,French Defense: Classical Variation,7
+C13,"French Defense: Classical Variation, Frankfurt Variation",12
+C20,King's Pawn Game,2
+C21,Center Game Accepted,4
+C22,Center Game: Normal Variation,6
+C23,Bishop's Opening,3
+C24,Bishop's Opening: Berlin Defense,4
+C25,Vienna Game,3
+C26,Vienna Game: Falkbeer Variation,4
+C27,Bishop's Opening: Boden-Kieseritzky Gambit,7
+C28,"Vienna Game: Stanley Variation, Three Knights Variation",6
+C29,Vienna Game: Vienna Gambit,5
+C30,King's Gambit Declined: Queen's Knight Defense,4
+C31,King's Gambit Declined: Falkbeer Countergambit,4
+C33,King's Gambit Accepted: Villemson Gambit,5
+C34,King's Gambit Accepted: Becker Defense,6
+C36,King's Gambit Accepted: Modern Defense,7
+C37,King's Gambit Accepted: Ghulam-Kassim Gambit,11
+C39,"King's Gambit Accepted: Kieseritzky Gambit, Kolisch Defense",10
+C40,King's Knight Opening,3
+C41,Philidor Defense,4
+C42,Petrov's Defense,4
+C43,Petrov's Defense: Modern Attack,5
+C44,"Scotch Game: Göring Gambit, Main Line",10
+C45,Scotch Game: Mieses Variation,11
+C46,Three Knights Opening,5
+C47,"Four Knights Game: Scotch Variation, Schmid Defense",10
+C48,Four Knights Game: Spanish Variation,7
+C49,"Four Knights Game: Spanish Variation, Double Spanish",11
+C50,Italian Game: Giuoco Pianissimo,11
+C54,"Italian Game: Classical Variation, Giuoco Pianissimo, with d6",10
+C55,Italian Game: Two Knights Defense,10
+C56,"Italian Game: Scotch Gambit, de Riviere Defense",10
+C58,"Italian Game: Two Knights Defense, Polerio Defense",10
+C59,"Italian Game: Two Knights Defense, Polerio Defense, Suhle Defense",16
+C60,Ruy Lopez,5
+C62,Ruy Lopez: Steinitz Defense,6
+C64,Ruy Lopez: Classical Variation,6
+C65,Ruy Lopez: Berlin Defense,6
+C66,"Ruy Lopez: Berlin Defense, Closed Wolf Variation",12
+C68,"Ruy Lopez: Exchange Variation, Lutikov Variation",8
+C69,"Ruy Lopez: Exchange Variation, King's Bishop Variation",10
+C71,"Ruy Lopez: Morphy Defense, Modern Steinitz Defense",8
+C77,"Ruy Lopez: Morphy Defense, Tarrasch Variation",9
+D00,Blackmar-Diemer Gambit Accepted: Schlutter Defense,10
+D01,Rapport-Jobava System,5
+D02,Queen's Pawn Game: Chigorin Variation,4
+D03,Queen's Pawn Game: Torre Attack,5
+D04,Queen's Pawn Game: Colle System,5
+D06,Queen's Gambit Declined: Marshall Defense,4
+D07,"Queen's Gambit Declined: Chigorin Defense, Janowski Variation",7
+D20,Queen's Gambit Accepted,4
+D25,Queen's Gambit Accepted: Janowski-Larsen Variation,8
+D30,Queen's Gambit Declined,4
+D31,Semi-Slav Defense: Accelerated Move Order,6
+D32,Tarrasch Defense: Symmetrical Variation,10
+D35,Queen's Gambit Declined: Normal Defense,6
+D37,Queen's Gambit Declined: Barmen Variation,8
+D45,Semi-Slav Defense: Main Line,9
+E51,"Nimzo-Indian Defense: Normal Variation, Ragozin Variation",10
+E60,Indian Defense: West Indian Defense,4
+E61,King's Indian Defense: Semi-Classical Variation,11
+E70,King's Indian Defense: Normal Variation,8
+E71,King's Indian Defense: Makogonov Variation,9
+E76,King's Indian Defense: Four Pawns Attack,9
+E90,King's Indian Defense: Larsen Variation,11
+E91,King's Indian Defense: Orthodox Variation,11
