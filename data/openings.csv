@@ -489,6 +489,3 @@ eco,name,ply
 "E90","King's Indian Defense: Normal Variation, Rare Defenses",9
 "E90","King's Indian Defense: Zinnowitz Variation",11
 "E91","King's Indian Defense: Orthodox Variation",11
-/^/eco,name,ply /
-eco,name,ply/
-eco,name,ply "A00","Anderssen's Opening",1
