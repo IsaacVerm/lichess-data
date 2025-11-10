@@ -1,6 +1,6 @@
 id,status,my_rating,my_score,my_color
 "ebQKtjgj","resign",1432,0,black
-"P60hm7eW","stalemate",1432,0,white
+"P60hm7eW","stalemate",1432,0.5,white
 "Q4Yn28ug","resign",1427,1,black
 "IlJYuex6","resign",1433,0,black
 "Yqd1GoCv","resign",1439,0,white
@@ -147,7 +147,7 @@ id,status,my_rating,my_score,my_color
 "alUW5ETa","resign",1517,0,black
 "ioLdq3md","resign",1511,1,white
 "euVFHQ7J","resign",1505,1,black
-"cWGoCuXJ","stalemate",1506,0,black
+"cWGoCuXJ","stalemate",1506,0.5,black
 "YqhI3SMF","resign",1500,1,black
 "yMkAU8PD","mate",1494,1,white
 "WCRf0GFG","resign",1488,1,white
@@ -179,7 +179,7 @@ id,status,my_rating,my_score,my_color
 "9Dl03G1P","mate",1425,1,black
 "wNdiC0l7","resign",1431,0,black
 "fVaQNPAj","mate",1426,1,white
-"YugDUfWN","stalemate",1426,0,black
+"YugDUfWN","stalemate",1426,0.5,black
 "MIezJ3cm","resign",1433,0,white
 "1v6CRgOS","draw",1432,0.5,black
 "hh04VdEo","resign",1438,0,white
@@ -351,7 +351,7 @@ id,status,my_rating,my_score,my_color
 "Y64nBF2g","resign",1572,0,black
 "U3Xr7Zya","draw",1582,0.5,white
 "6S6YZ4RO","outoftime",1524,1,black
-"VFQKfxuj","stalemate",1527,0,white
+"VFQKfxuj","stalemate",1527,0.5,white
 "V1ourjGl","mate",1418,1,black
 "k4PvxwCN","outoftime",1291,1,white
 "8bVzbReh","mate",1474,0,black
@@ -445,7 +445,7 @@ id,status,my_rating,my_score,my_color
 "Ss1vb7Re","draw",1579,0.5,white
 "lg4d0Bo7","resign",1572,1,black
 "y7iqgrOX","resign",1579,0,white
-"CgKvxf2v","stalemate",1579,0,black
+"CgKvxf2v","stalemate",1579,0.5,black
 "Uk2qFaUY","resign",1572,1,black
 "bwk4VHMO","mate",1565,1,white
 "xsvQgXRe","resign",1572,0,white
@@ -492,7 +492,7 @@ id,status,my_rating,my_score,my_color
 "Q2YZBPKC","resign",1513,0,black
 "j05vRTZO","resign",1519,0,white
 "Og4niRhf","mate",1525,0,black
-"T69C7TND","stalemate",1525,0,white
+"T69C7TND","stalemate",1525,0.5,white
 "iPjhGBA3","outoftime",1533,0,black
 "jCnpVUq0","resign",1538,0,black
 "E0EHTSWL","mate",1531,1,black
@@ -508,7 +508,7 @@ id,status,my_rating,my_score,my_color
 "vE2zNktu","resign",1508,1,black
 "biGjyZR1","resign",1514,0,black
 "92t3dkoA","resign",1508,1,white
-"WsxGYQ8l","stalemate",1508,0,white
+"WsxGYQ8l","stalemate",1508,0.5,white
 "IkOuLbhg","resign",1515,0,black
 "rpG54J8B","resign",1522,0,black
 "sdUcn1hL","resign",1529,0,black
@@ -777,7 +777,7 @@ id,status,my_rating,my_score,my_color
 "BSYNjaup","outoftime",1445,0,black
 "yWWXjQnH","mate",1440,1,white
 "nAzqiGNe","resign",1445,0,black
-"lQ9uAKl1","stalemate",1445,0,black
+"lQ9uAKl1","stalemate",1445,0.5,black
 "tVLoJEJY","resign",1439,1,white
 "HG72N1RM","resign",1444,0,black
 "mQDkmXDH","mate",1450,0,white
@@ -785,7 +785,7 @@ id,status,my_rating,my_score,my_color
 "cSIA84CA","resign",1450,0,black
 "HhgwROrk","outoftime",1455,0,white
 "ocAxZY2L","resign",1448,1,black
-"yxG54MAj","stalemate",1448,0,black
+"yxG54MAj","stalemate",1448,0.5,black
 "Jdv6gmKm","resign",1443,1,black
 "L3jLTCji","resign",1450,0,black
 "yXynPJ5a","resign",1443,1,white
@@ -846,7 +846,7 @@ id,status,my_rating,my_score,my_color
 "dug1pZ71","draw",1468,0.5,white
 "kMx7gTRI","outoftime",1473,0,black
 "5fbeiLai","outoftime",1468,1,white
-"P597gmdP","stalemate",1467,0,white
+"P597gmdP","stalemate",1467,0.5,white
 "p0xZkDGp","resign",1461,1,black
 "dSLQ8LOC","mate",1455,1,white
 "oHRPqWcn","mate",1448,1,black
@@ -911,7 +911,7 @@ id,status,my_rating,my_score,my_color
 "lAJPiV4U","draw",1521,0.5,black
 "shDVtTTF","resign",1527,0,black
 "xgtEmKNh","mate",1521,1,white
-"7RxvGAZp","stalemate",1521,0,white
+"7RxvGAZp","stalemate",1521,0.5,white
 "CCMvypyw","resign",1516,1,white
 "eArdpPMD","resign",1511,1,black
 "20RzBo1N","resign",1505,1,black
@@ -1071,7 +1071,7 @@ id,status,my_rating,my_score,my_color
 "Ppctv6d4","resign",1530,0,black
 "4hFCF5jp","resign",1536,0,black
 "HovjShtc","resign",1541,0,white
-"lPJeL2Ee","stalemate",1540,0,white
+"lPJeL2Ee","stalemate",1540,0.5,white
 "5HcLUqut","resign",1546,0,black
 "eerkW3xg","resign",1540,1,white
 "IeSpW5fg","timeout",1534,1,white
@@ -1098,7 +1098,7 @@ id,status,my_rating,my_score,my_color
 "wim7X1n3","resign",1523,1,black
 "jT0dY6Pa","resign",1517,1,black
 "LoB8zXK6","resign",1509,1,white
-"mmxMNshu","stalemate",1509,0,black
+"mmxMNshu","stalemate",1509,0.5,black
 "2qP0PYcb","resign",1503,1,white
 "UOF9bRs8","resign",1510,0,white
 "NK4jHonc","draw",1510,0.5,white
@@ -1113,7 +1113,7 @@ id,status,my_rating,my_score,my_color
 "Qnm5IMj2","resign",1503,0,black
 "vCWu7uqm","mate",1497,1,white
 "rJh8pK0u","mate",1491,1,white
-"9o5yJKb9","stalemate",1492,0,black
+"9o5yJKb9","stalemate",1492,0.5,black
 "DRpGZjlh","mate",1496,0,black
 "Sfz9v4TN","resign",1501,0,white
 "3vsrHRw8","resign",1495,1,black
@@ -1211,12 +1211,12 @@ id,status,my_rating,my_score,my_color
 "I3ZtIOds","mate",1498,1,white
 "Hw58ZJmt","resign",1492,1,black
 "ScLYgPTU","resign",1499,0,black
-"qHhbxXGq","stalemate",1499,0,black
+"qHhbxXGq","stalemate",1499,0.5,black
 "UXYsBJ28","resign",1505,0,white
 "zpDxDCDH","resign",1499,1,black
 "Es9nVALn","resign",1493,1,white
 "Mqd81Axa","resign",1499,0,black
-"3ceKvzK4","stalemate",1499,0,black
+"3ceKvzK4","stalemate",1499,0.5,black
 "obRgX3FR","draw",1499,0.5,white
 "B5hPsFDE","draw",1499,0.5,white
 "eYPihhu4","resign",1504,0,black
@@ -1228,7 +1228,7 @@ id,status,my_rating,my_score,my_color
 "CLE1BC9w","mate",1496,0,white
 "e4zjI7cR","outoftime",1490,1,white
 "kb5pv55D","mate",1495,0,black
-"Wc50SUni","stalemate",1495,0,white
+"Wc50SUni","stalemate",1495,0.5,white
 "XErGAi0B","mate",1486,1,white
 "WkHlZ4P1","mate",1481,1,black
 "A9BUni2u","resign",1487,0,black
@@ -1350,7 +1350,7 @@ id,status,my_rating,my_score,my_color
 "QqgGCqMN","resign",1572,0,black
 "yftuzNkH","resign",1578,0,white
 "Yp5CRwpz","resign",1584,0,white
-"cHyEjmZZ","stalemate",1584,0,black
+"cHyEjmZZ","stalemate",1584,0.5,black
 "wGXL9akf","resign",1578,1,white
 "IOAaoLhX","resign",1573,1,black
 "oIqBWuXs","resign",1566,1,black
@@ -1390,7 +1390,7 @@ id,status,my_rating,my_score,my_color
 "Ih4VHWor","resign",1603,1,white
 "mPZsTaAt","resign",1598,1,black
 "XPMXkvUN","resign",1592,1,black
-"hXrSUjh1","stalemate",1591,0,white
+"hXrSUjh1","stalemate",1591,0.5,white
 "8R6TAtB1","outoftime",1585,1,white
 "k9n9JHnF","outoftime",1591,0,black
 "aQQe0M5Y","outoftime",1585,1,white
@@ -1602,7 +1602,7 @@ id,status,my_rating,my_score,my_color
 "rGhkLAoU","mate",1514,1,black
 "cSbCaVkk","resign",1519,0,white
 "TUqelp8W","resign",1514,1,white
-"cWHAxj2H","stalemate",1513,0,black
+"cWHAxj2H","stalemate",1513,0.5,black
 "A7cumCQC","resign",1518,0,black
 "k1UHt6Dt","resign",1513,1,black
 "ufULUsKQ","mate",1518,0,white
@@ -1702,7 +1702,7 @@ id,status,my_rating,my_score,my_color
 "yXUoHnFH","outoftime",1563,0,white
 "o7SeB6Dj","draw",1562,0.5,black
 "pocSibG0","resign",1554,1,black
-"YE9E7q26","stalemate",1553,0,white
+"YE9E7q26","stalemate",1553,0.5,white
 "y4D1NPSe","resign",1559,0,black
 "Gs5R6cfW","resign",1553,1,white
 "Opi1oqbJ","resign",1558,0,white
@@ -1799,7 +1799,7 @@ id,status,my_rating,my_score,my_color
 "6A23zpJ7","outoftime",1602,0,black
 "Kewt8ePL","resign",1608,0,white
 "R21u37zp","resign",1602,1,black
-"bU6WRDFU","stalemate",1601,0,black
+"bU6WRDFU","stalemate",1601,0.5,black
 "WnJtaay2","resign",1607,0,white
 "Jkmr5GPt","resign",1601,1,white
 "iP8J8B7o","outoftime",1594,1,white
@@ -1849,7 +1849,7 @@ id,status,my_rating,my_score,my_color
 "g5T9OQKd","resign",1572,0,white
 "nQRwHe6k","resign",1578,0,black
 "Wun1yXzq","resign",1584,0,white
-"lNvAdq5i","stalemate",1584,0,black
+"lNvAdq5i","stalemate",1584,0.5,black
 "USYlDevn","mate",1589,0,black
 "CH1spb4v","resign",1595,0,black
 "zR2VXAFW","resign",1601,0,black
@@ -1969,7 +1969,7 @@ id,status,my_rating,my_score,my_color
 "7QHrothY","resign",1570,1,white
 "txkUdIrI","resign",1564,1,black
 "47tI17q3","resign",1558,1,black
-"gL1pzgk2","stalemate",1558,0,white
+"gL1pzgk2","stalemate",1558,0.5,white
 "VIBwueyQ","resign",1552,1,black
 "NKi98fTT","resign",1558,0,white
 "X4FLN8QN","resign",1552,1,white
@@ -1977,7 +1977,7 @@ id,status,my_rating,my_score,my_color
 "cQZHi1IE","resign",1552,1,white
 "8kRMvL6j","resign",1546,1,black
 "IHSyCOE9","resign",1540,1,white
-"CzJEG8y1","stalemate",1540,0,white
+"CzJEG8y1","stalemate",1540,0.5,white
 "QdtOOKgX","outoftime",1534,1,black
 "RAVERX3o","mate",1528,1,white
 "EpDdMTK2","mate",1534,0,black
@@ -2049,7 +2049,7 @@ id,status,my_rating,my_score,my_color
 "4fBSkPJ0","resign",1525,0,white
 "VwHJr8Xw","mate",1519,1,black
 "shFJhF7j","resign",1514,1,black
-"fLqctXtf","stalemate",1513,0,black
+"fLqctXtf","stalemate",1513,0.5,black
 "mHQJDYW6","resign",1519,0,white
 "bZLv4MtU","mate",1514,1,white
 "mACj7zHG","resign",1505,1,black
@@ -2124,12 +2124,12 @@ id,status,my_rating,my_score,my_color
 "VcuNkcVv","resign",1561,1,white
 "QaWrbdBD","resign",1555,1,black
 "LRUfpWSv","resign",1560,0,white
-"BnS5TGGP","stalemate",1560,0,white
+"BnS5TGGP","stalemate",1560,0.5,white
 "Omgp6hLf","resign",1566,0,black
 "GqzhMvqO","resign",1560,1,black
 "u8eVj5up","mate",1566,0,black
 "rO8YmEm7","mate",1558,1,white
-"yiD0uacT","stalemate",1557,0,white
+"yiD0uacT","stalemate",1557,0.5,white
 "ZkzWhUmM","resign",1561,0,white
 "QYWO8lZu","resign",1565,0,black
 "G6HNZ9xZ","mate",1571,0,black
@@ -2312,7 +2312,7 @@ id,status,my_rating,my_score,my_color
 "ku4r4nHy","resign",1479,1,black
 "j5byDZf8","resign",1473,1,white
 "bz2wkrPc","resign",1467,1,black
-"MD4MmM5n","stalemate",1465,0,black
+"MD4MmM5n","stalemate",1465,0.5,black
 "kVbgjUY2","mate",1461,1,white
 "umyZm7dq","resign",1467,0,black
 "oJjAwm4e","mate",1471,0,white
@@ -2346,7 +2346,7 @@ id,status,my_rating,my_score,my_color
 "P1BjZkof","resign",1496,0,black
 "05g2mCcl","outoftime",1489,1,black
 "FIe1CSew","resign",1495,0,white
-"Cvm7Ou14","stalemate",1494,0,black
+"Cvm7Ou14","stalemate",1494,0.5,black
 "R9kPxK1Q","resign",1500,0,white
 "OMv0MOQj","resign",1504,0,black
 "m98FxeBa","resign",1498,1,white
@@ -2404,7 +2404,7 @@ id,status,my_rating,my_score,my_color
 "KXJJg7dF","resign",1497,0,white
 "g4GpwRYE","outoftime",1492,1,black
 "fcAKM78u","mate",1498,0,black
-"Tvd3VQ6v","stalemate",1498,0,white
+"Tvd3VQ6v","stalemate",1498,0.5,white
 "vcqElb84","timeout",1491,1,white
 "8hXAj41D","resign",1486,1,white
 "v14I4Mdv","resign",1490,0,black
@@ -2502,7 +2502,7 @@ id,status,my_rating,my_score,my_color
 "C5DmQya5","resign",1563,1,black
 "CUPADXtb","mate",1557,1,white
 "mAaUGVyx","resign",1549,1,black
-"6uNidZEp","stalemate",1550,0,black
+"6uNidZEp","stalemate",1550,0.5,black
 "3TilnpaH","mate",1544,1,white
 "1GmygCrD","resign",1549,0,black
 "BCjK9EcO","resign",1542,1,white
@@ -2565,7 +2565,7 @@ id,status,my_rating,my_score,my_color
 "4ESQXHAL","outoftime",1565,1,white
 "ucKVE1tQ","resign",1559,1,black
 "n557EN0u","resign",1565,0,white
-"1fD419CX","stalemate",1565,0,black
+"1fD419CX","stalemate",1565,0.5,black
 "0xFa4sSv","resign",1571,0,white
 "ebV8JGyN","resign",1565,1,black
 "rFhwGMZs","mate",1558,1,black
@@ -2692,7 +2692,7 @@ id,status,my_rating,my_score,my_color
 "vJ4AO7ur","resign",1506,1,white
 "BRgEDxAW","resign",1500,1,black
 "CELVOdCD","mate",1495,1,white
-"nK0CTeQ9","stalemate",1494,0,black
+"nK0CTeQ9","stalemate",1494,0.5,black
 "Z8yBhmkP","resign",1489,1,white
 "bJh922zM","resign",1483,1,black
 "RGWP1CNp","resign",1489,0,white

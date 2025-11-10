@@ -26,7 +26,7 @@ NR==1 {print $0; next}
     my_score=0
     if (white_id ~ /indexinator/ && winner ~ /white/) my_score=1
     if (black_id ~ /indexinator/ && winner ~ /black/) my_score=1
-    if (status ~ /draw/) my_score=0.5
+    if (status ~ /draw|stalemate/) my_score=0.5
 
     my_color="white"
     if (black_id ~ /indexinator/) my_color="black"
