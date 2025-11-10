@@ -37,6 +37,6 @@ I use `datasette` to explore my data.
 E.g. check `game_results`:
 
 ```
-sqlite-utils insert game_results.db game_results game_results.csv --csv
+sqlite-utils insert game_results.db game_results data/game_results.csv --csv
 datasette serve game_results.db
 ```
