@@ -10,6 +10,10 @@
 # - puzzle.rating
 # - puzzle.initialPly
 
+# Get the script's directory and navigate to repository root
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+cd "$SCRIPT_DIR/.." || exit 1
+
 INPUT_FILE="data/failed_puzzles_puzzle_storm.csv"
 OUTPUT_FILE="data/enriched_failed_puzzles_puzzle_storm.csv"
 TEMP_FILE="data/enriched_failed_puzzles_puzzle_storm.tmp.csv"
