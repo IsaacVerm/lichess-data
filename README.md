@@ -31,6 +31,20 @@ chmod +x fetch_games.sh
 ./fetch_games.sh
 ```
 
+To enrich failed Puzzle Storm puzzles with details from the Lichess API:
+
+```
+chmod +x src/enrich_failed_puzzles_puzzle_storm.sh
+cd src
+./enrich_failed_puzzles_puzzle_storm.sh
+```
+
+This will read `data/failed_puzzles_puzzle_storm.csv` and create `data/enriched_failed_puzzles_puzzle_storm.csv` with the following fields:
+- `game_id` - The ID of the game the puzzle came from
+- `puzzle_id` - The puzzle ID
+- `puzzle_rating` - The puzzle difficulty rating
+- `puzzle_initial_ply` - The move number where the puzzle starts
+
 ## Explore data
 
 I use `datasette` to explore my data.
