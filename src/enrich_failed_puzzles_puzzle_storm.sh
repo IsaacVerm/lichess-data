@@ -16,7 +16,6 @@ cd "$SCRIPT_DIR/.." || exit 1
 
 INPUT_FILE="data/failed_puzzles_puzzle_storm.csv"
 OUTPUT_FILE="data/enriched_failed_puzzles_puzzle_storm.csv"
-TEMP_FILE="data/enriched_failed_puzzles_puzzle_storm.tmp.csv"
 
 # Check if input file exists
 if [ ! -f "$INPUT_FILE" ]; then

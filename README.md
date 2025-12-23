@@ -34,9 +34,7 @@ chmod +x fetch_games.sh
 To enrich failed Puzzle Storm puzzles with details from the Lichess API:
 
 ```
-chmod +x src/enrich_failed_puzzles_puzzle_storm.sh
-cd src
-./enrich_failed_puzzles_puzzle_storm.sh
+./src/enrich_failed_puzzles_puzzle_storm.sh
 ```
 
 This will read `data/failed_puzzles_puzzle_storm.csv` and create `data/enriched_failed_puzzles_puzzle_storm.csv` with the following fields:
