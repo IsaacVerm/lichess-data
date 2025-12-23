@@ -27,7 +27,8 @@ fi
 echo "game_id,puzzle_id,puzzle_rating,puzzle_initial_ply" > "$OUTPUT_FILE"
 
 # Read each URL from the CSV file (skip header)
-tail -n +2 "$INPUT_FILE" | while IFS= read -r url; do
+# The || [ -n "$url" ] ensures the last line is processed even if it doesn't end with a newline
+tail -n +2 "$INPUT_FILE" | while IFS= read -r url || [ -n "$url" ]; do
     # Extract puzzle ID from URL
     # URL format: https://lichess.org/training/{puzzle_id}
     puzzle_id=$(echo "$url" | awk -F'/' '{print $NF}')
