@@ -34,8 +34,8 @@ while IFS= read -r file; do
     fi
 done < <(find "$DIR" -maxdepth 1 -type f \( -name "Untitled" -o -name "Untitled*.txt" \) | sort -V)
 
-# Save urls as a csv file data/failed_puzzles_puzzle_storm.csv
-OUTPUT_FILE="data/failed_puzzles_puzzle_storm.csv"
+# Save urls as a csv file failed_puzzles_puzzle_storm.csv
+OUTPUT_FILE="failed_puzzles_puzzle_storm.csv"
 
 # Write CSV header
 echo "url" > "$OUTPUT_FILE"
