@@ -21,6 +21,7 @@ fi
 echo "game_id,puzzle_id,puzzle_rating,puzzle_initial_ply,puzzle_url" > "$OUTPUT_FILE"
 
 # Read each line from the CSV file (skip header)
+# The || [ -n "$game_id" ] ensures the last line is processed even if it doesn't end with a newline
 tail -n +2 "$INPUT_FILE" | while IFS=, read -r game_id puzzle_id puzzle_rating puzzle_initial_ply || [ -n "$game_id" ]; do
     # Skip empty lines
     if [ -z "$game_id" ]; then
@@ -28,7 +29,7 @@ tail -n +2 "$INPUT_FILE" | while IFS=, read -r game_id puzzle_id puzzle_rating p
     fi
     
     # Calculate puzzle_initial_ply + 1
-    if [ -n "$puzzle_initial_ply" ] && [ "$puzzle_initial_ply" != "" ]; then
+    if [ -n "$puzzle_initial_ply" ]; then
         ply_plus_one=$((puzzle_initial_ply + 1))
     else
         ply_plus_one=""
