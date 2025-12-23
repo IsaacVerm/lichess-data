@@ -3,7 +3,6 @@
 [Lichess games I played](https://lichess.org/api#tag/Games/operation/apiGamesUser) are fetched and then cleaned using `jq`, `awk` and [`sqlite-utils`](https://sqlite-utils.datasette.io/en/stable/index.html). I'm not sure I'll keep using `sqlite-utils`, but SQL often is a lot less awkward than `awk`.
 
 
-
 ## Setup
 
 [Install sqlite-utils](https://sqlite-utils.datasette.io/en/stable/installation.html#using-pip):
@@ -30,18 +29,6 @@ E.g. scripts to run to fetch my games:
 chmod +x fetch_games.sh
 ./fetch_games.sh
 ```
-
-To enrich failed Puzzle Storm puzzles with details from the Lichess API:
-
-```
-./src/enrich_failed_puzzles_puzzle_storm.sh
-```
-
-This will read `data/failed_puzzles_puzzle_storm.csv` and create `data/enriched_failed_puzzles_puzzle_storm.csv` with the following fields:
-- `game_id` - The ID of the game the puzzle came from
-- `puzzle_id` - The puzzle ID
-- `puzzle_rating` - The puzzle difficulty rating
-- `puzzle_initial_ply` - The move number where the puzzle starts
 
 ## Explore data
 
