@@ -18,7 +18,7 @@ if [ ! -f "$INPUT_FILE" ]; then
 fi
 
 # Create CSV header
-echo "game_id,puzzle_id,puzzle_rating,puzzle_initial_ply,puzzle_url" > "$OUTPUT_FILE"
+echo "game_id,puzzle_id,puzzle_rating,puzzle_url,puzzle_initial_ply,puzzle_position_in_game_url" > "$OUTPUT_FILE"
 
 # Read each line from the CSV file (skip header)
 # The || [ -n "$game_id" ] ensures the last line is processed even if it doesn't end with a newline
@@ -29,21 +29,14 @@ tail -n +2 "$INPUT_FILE" | while IFS=, read -r game_id puzzle_id puzzle_rating p
     fi
     
     # Calculate puzzle_initial_ply + 1
-    if [ -n "$puzzle_initial_ply" ]; then
-        ply_plus_one=$((puzzle_initial_ply + 1))
-    else
-        ply_plus_one=""
-    fi
+    ply_plus_one=$((puzzle_initial_ply + 1))
     
-    # Construct puzzle URL
-    if [ -n "$game_id" ] && [ -n "$ply_plus_one" ]; then
-        puzzle_url="https://lichess.org/${game_id}#${ply_plus_one}"
-    else
-        puzzle_url=""
-    fi
+    # Construct URLs
+    puzzle_url="https://lichess.org/training/${puzzle_id}"
+    puzzle_position_in_game_url="https://lichess.org/${game_id}#${ply_plus_one}"
     
     # Write to CSV file
-    echo "$game_id,$puzzle_id,$puzzle_rating,$puzzle_initial_ply,$puzzle_url" >> "$OUTPUT_FILE"
+    echo "$game_id,$puzzle_id,$puzzle_rating,$puzzle_url,$puzzle_initial_ply,$puzzle_position_in_game_url" >> "$OUTPUT_FILE"
 done
 
 echo "Successfully created $OUTPUT_FILE with puzzle URLs"
