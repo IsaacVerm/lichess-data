@@ -46,3 +46,16 @@ for url in "${urls[@]}"; do
 done
 
 echo "Successfully saved ${#urls[@]} URLs to $OUTPUT_FILE"
+
+# Print URLs in array format
+echo "["
+for i in "${!urls[@]}"; do
+    if [ $i -eq $((${#urls[@]} - 1)) ]; then
+        # Last element - no comma
+        echo "            '${urls[$i]}'"
+    else
+        # Not last element - add comma
+        echo "            '${urls[$i]}',"
+    fi
+done
+echo "]"
