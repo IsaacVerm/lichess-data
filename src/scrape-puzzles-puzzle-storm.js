@@ -2,6 +2,7 @@ JSON.stringify(
   Array.from(document.querySelectorAll('.puz-history__round')).map(round => {
     const resultElement = round.querySelector('good') || round.querySelector('bad');
     return {
+      run_id: crypto.randomUUID(),
       rating: parseInt(round. querySelector('rating').textContent),
       href: round.querySelector('a').getAttribute('href'),
       result: round.querySelector('good') ? 'good' : 'bad',
