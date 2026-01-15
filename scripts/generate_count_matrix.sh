@@ -33,11 +33,13 @@ if ! jq '
   group_by([.rating_floor, .correctness, .speed]) |
   map({
     rating_range: .[0].rating_range,
+    rating_floor: .[0].rating_floor,
     correctness: .[0].correctness,
     speed: .[0].speed,
     count: length
   }) |
-  sort_by(.rating_range, .correctness, .speed)
+  sort_by(.rating_floor, .correctness, .speed) |
+  map(del(.rating_floor))
 ' "$INPUT_FILE" > "$OUTPUT_FILE"; then
     echo "Error: jq command failed"
     exit 1
