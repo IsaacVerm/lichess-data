@@ -1,0 +1,28 @@
+name: Generate Count Matrix
+
+on:
+  push:
+    paths:
+      - 'data/puzzles_puzzle_storm.json'
+    branches:
+      - main
+
+jobs:
+  generate-count-matrix:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Generate count matrix
+        run: |
+          chmod +x scripts/generate_count_matrix.sh
+          ./scripts/generate_count_matrix.sh
+      
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add data/count_matrix.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update count_matrix.json" && git push)

@@ -1,0 +1,22 @@
+[
+  {
+    "correctness": "bad",
+    "speed": "fast",
+    "count": 2
+  },
+  {
+    "correctness": "bad",
+    "speed": "slow",
+    "count": 3
+  },
+  {
+    "correctness": "good",
+    "speed": "fast",
+    "count": 26
+  },
+  {
+    "correctness": "good",
+    "speed": "slow",
+    "count": 25
+  }
+]
