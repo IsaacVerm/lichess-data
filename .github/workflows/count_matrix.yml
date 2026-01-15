@@ -21,13 +21,9 @@ jobs:
           ./scripts/generate_count_matrix.sh
       
       - name: Commit and push if changed
-        run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add data/count_matrix.json
-          if ! git diff --quiet --staged; then
-            git commit -m "Update count_matrix.json"
-            git push
-          else
-            echo "No changes to commit"
-          fi
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Update count_matrix.json
+          file_pattern: 'data/count_matrix.json'
+          commit_user_name: github-actions[bot]
+          commit_user_email: github-actions[bot]@users.noreply.github.com
