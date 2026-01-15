@@ -1115,5 +1115,671 @@
     "href": "/training/wyVsP",
     "result": "good",
     "clock": 0
+  },
+    {
+    "run_id": "8a287bc6-d0b7-4cb0-bda6-33e53e6fc078",
+    "date": "2026-01-15",
+    "time": "21:28:25",
+    "rating": 1339,
+    "href": "/training/skyvX",
+    "result": "bad",
+    "clock": 1
+  },
+  {
+    "run_id": "8a287bc6-d0b7-4cb0-bda6-33e53e6fc078",
+    "date": "2026-01-15",
+    "time": "21:28:25",
+    "rating": 1329,
+    "href": "/training/U1FMX",
+    "result": "good",
+    "clock": 18
+  },
+  {
+    "run_id": "8a287bc6-d0b7-4cb0-bda6-33e53e6fc078",
+    "date": "2026-01-15",
+    "time": "21:28:25",
+    "rating": 1319,
+    "href": "/training/rpsll",
+    "result": "good",
+    "clock": 8
+  },
+  {
+    "run_id": "8a287bc6-d0b7-4cb0-bda6-33e53e6fc078",
+    "date": "2026-01-15",
+    "time": "21:28:25",
+    "rating": 1306,
+    "href": "/training/fiIsF",
+    "result": "bad",
+    "clock": 5
+  },
+  {
+    "run_id": "8a287bc6-d0b7-4cb0-bda6-33e53e6fc078",
+    "date": "2026-01-15",
+    "time": "21:28:25",
+    "rating": 1299,
+    "href": "/training/nPk7Z",
+    "result": "good",
+    "clock": 7
+  },
+  {
+    "run_id": "8a287bc6-d0b7-4cb0-bda6-33e53e6fc078",
+    "date": "2026-01-15",
+    "time": "21:28:25",
+    "rating": 1296,
+    "href": "/training/uNUbN",
+    "result": "bad",
+    "clock": 21
+  },
+  {
+    "run_id": "8a287bc6-d0b7-4cb0-bda6-33e53e6fc078",
+    "date": "2026-01-15",
+    "time": "21:28:25",
+    "rating": 1279,
+    "href": "/training/A1U3K",
+    "result": "bad",
+    "clock": 4
+  },
+  {
+    "run_id": "8a287bc6-d0b7-4cb0-bda6-33e53e6fc078",
+    "date": "2026-01-15",
+    "time": "21:28:25",
+    "rating": 1279,
+    "href": "/training/1xaVQ",
+    "result": "good",
+    "clock": 4
+  },
+  {
+    "run_id": "8a287bc6-d0b7-4cb0-bda6-33e53e6fc078",
+    "date": "2026-01-15",
+    "time": "21:28:25",
+    "rating": 1186,
+    "href": "/training/rvdPp",
+    "result": "good",
+    "clock": 8
+  },
+  {
+    "run_id": "8a287bc6-d0b7-4cb0-bda6-33e53e6fc078",
+    "date": "2026-01-15",
+    "time": "21:28:25",
+    "rating": 1179,
+    "href": "/training/p2UH0",
+    "result": "good",
+    "clock": 7
+  },
+  {
+    "run_id": "8a287bc6-d0b7-4cb0-bda6-33e53e6fc078",
+    "date": "2026-01-15",
+    "time": "21:28:25",
+    "rating": 1163,
+    "href": "/training/AkpK4",
+    "result": "good",
+    "clock": 3
+  },
+  {
+    "run_id": "8a287bc6-d0b7-4cb0-bda6-33e53e6fc078",
+    "date": "2026-01-15",
+    "time": "21:28:25",
+    "rating": 1155,
+    "href": "/training/cJpAn",
+    "result": "good",
+    "clock": 3
+  },
+  {
+    "run_id": "8a287bc6-d0b7-4cb0-bda6-33e53e6fc078",
+    "date": "2026-01-15",
+    "time": "21:28:25",
+    "rating": 1137,
+    "href": "/training/yHMIB",
+    "result": "good",
+    "clock": 3
+  },
+  {
+    "run_id": "8a287bc6-d0b7-4cb0-bda6-33e53e6fc078",
+    "date": "2026-01-15",
+    "time": "21:28:25",
+    "rating": 1127,
+    "href": "/training/XQaAj",
+    "result": "good",
+    "clock": 11
+  },
+  {
+    "run_id": "8a287bc6-d0b7-4cb0-bda6-33e53e6fc078",
+    "date": "2026-01-15",
+    "time": "21:28:25",
+    "rating": 1111,
+    "href": "/training/AuYwm",
+    "result": "good",
+    "clock": 7
+  },
+  {
+    "run_id": "8a287bc6-d0b7-4cb0-bda6-33e53e6fc078",
+    "date": "2026-01-15",
+    "time": "21:28:25",
+    "rating": 1099,
+    "href": "/training/LyelC",
+    "result": "bad",
+    "clock": 5
+  },
+  {
+    "run_id": "8a287bc6-d0b7-4cb0-bda6-33e53e6fc078",
+    "date": "2026-01-15",
+    "time": "21:28:25",
+    "rating": 1083,
+    "href": "/training/GbXTm",
+    "result": "good",
+    "clock": 6
+  },
+  {
+    "run_id": "8a287bc6-d0b7-4cb0-bda6-33e53e6fc078",
+    "date": "2026-01-15",
+    "time": "21:28:25",
+    "rating": 1065,
+    "href": "/training/HzQiL",
+    "result": "bad",
+    "clock": 7
+  },
+  {
+    "run_id": "8a287bc6-d0b7-4cb0-bda6-33e53e6fc078",
+    "date": "2026-01-15",
+    "time": "21:28:25",
+    "rating": 1050,
+    "href": "/training/6hsIs",
+    "result": "good",
+    "clock": 3
+  },
+  {
+    "run_id": "8a287bc6-d0b7-4cb0-bda6-33e53e6fc078",
+    "date": "2026-01-15",
+    "time": "21:28:25",
+    "rating": 1044,
+    "href": "/training/R4rsD",
+    "result": "good",
+    "clock": 5
+  },
+  {
+    "run_id": "8a287bc6-d0b7-4cb0-bda6-33e53e6fc078",
+    "date": "2026-01-15",
+    "time": "21:28:25",
+    "rating": 1021,
+    "href": "/training/0ZkrO",
+    "result": "good",
+    "clock": 3
+  },
+  {
+    "run_id": "8a287bc6-d0b7-4cb0-bda6-33e53e6fc078",
+    "date": "2026-01-15",
+    "time": "21:28:25",
+    "rating": 1010,
+    "href": "/training/0DvVx",
+    "result": "good",
+    "clock": 0
+  },
+   {
+    "run_id": "225c2850-7d6a-4f30-b483-a2d576d98f64",
+    "date": "2026-01-15",
+    "time": "21:34:20",
+    "rating": 1434,
+    "href": "/training/mvQsP",
+    "result": "bad",
+    "clock": 7
+  },
+  {
+    "run_id": "225c2850-7d6a-4f30-b483-a2d576d98f64",
+    "date": "2026-01-15",
+    "time": "21:34:20",
+    "rating": 1424,
+    "href": "/training/A4z9C",
+    "result": "good",
+    "clock": 5
+  },
+  {
+    "run_id": "225c2850-7d6a-4f30-b483-a2d576d98f64",
+    "date": "2026-01-15",
+    "time": "21:34:20",
+    "rating": 1415,
+    "href": "/training/GoZGR",
+    "result": "good",
+    "clock": 6
+  },
+  {
+    "run_id": "225c2850-7d6a-4f30-b483-a2d576d98f64",
+    "date": "2026-01-15",
+    "time": "21:34:20",
+    "rating": 1398,
+    "href": "/training/ORmKz",
+    "result": "good",
+    "clock": 24
+  },
+  {
+    "run_id": "225c2850-7d6a-4f30-b483-a2d576d98f64",
+    "date": "2026-01-15",
+    "time": "21:34:20",
+    "rating": 1349,
+    "href": "/training/K5An2",
+    "result": "good",
+    "clock": 9
+  },
+  {
+    "run_id": "225c2850-7d6a-4f30-b483-a2d576d98f64",
+    "date": "2026-01-15",
+    "time": "21:34:20",
+    "rating": 1324,
+    "href": "/training/jOAJP",
+    "result": "good",
+    "clock": 6
+  },
+  {
+    "run_id": "225c2850-7d6a-4f30-b483-a2d576d98f64",
+    "date": "2026-01-15",
+    "time": "21:34:20",
+    "rating": 1316,
+    "href": "/training/U3uv0",
+    "result": "good",
+    "clock": 18
+  },
+  {
+    "run_id": "225c2850-7d6a-4f30-b483-a2d576d98f64",
+    "date": "2026-01-15",
+    "time": "21:34:20",
+    "rating": 1309,
+    "href": "/training/tT7QY",
+    "result": "good",
+    "clock": 4
+  },
+  {
+    "run_id": "225c2850-7d6a-4f30-b483-a2d576d98f64",
+    "date": "2026-01-15",
+    "time": "21:34:20",
+    "rating": 1299,
+    "href": "/training/LjgI2",
+    "result": "bad",
+    "clock": 4
+  },
+  {
+    "run_id": "225c2850-7d6a-4f30-b483-a2d576d98f64",
+    "date": "2026-01-15",
+    "time": "21:34:20",
+    "rating": 1286,
+    "href": "/training/5KGiy",
+    "result": "good",
+    "clock": 6
+  },
+  {
+    "run_id": "225c2850-7d6a-4f30-b483-a2d576d98f64",
+    "date": "2026-01-15",
+    "time": "21:34:20",
+    "rating": 1281,
+    "href": "/training/vmksZ",
+    "result": "good",
+    "clock": 9
+  },
+  {
+    "run_id": "225c2850-7d6a-4f30-b483-a2d576d98f64",
+    "date": "2026-01-15",
+    "time": "21:34:20",
+    "rating": 1274,
+    "href": "/training/OHmbu",
+    "result": "good",
+    "clock": 6
+  },
+  {
+    "run_id": "225c2850-7d6a-4f30-b483-a2d576d98f64",
+    "date": "2026-01-15",
+    "time": "21:34:20",
+    "rating": 1194,
+    "href": "/training/f9U7I",
+    "result": "good",
+    "clock": 6
+  },
+  {
+    "run_id": "225c2850-7d6a-4f30-b483-a2d576d98f64",
+    "date": "2026-01-15",
+    "time": "21:34:20",
+    "rating": 1177,
+    "href": "/training/TSXqj",
+    "result": "good",
+    "clock": 4
+  },
+  {
+    "run_id": "225c2850-7d6a-4f30-b483-a2d576d98f64",
+    "date": "2026-01-15",
+    "time": "21:34:20",
+    "rating": 1172,
+    "href": "/training/mGSj7",
+    "result": "good",
+    "clock": 9
+  },
+  {
+    "run_id": "225c2850-7d6a-4f30-b483-a2d576d98f64",
+    "date": "2026-01-15",
+    "time": "21:34:20",
+    "rating": 1154,
+    "href": "/training/uH7ke",
+    "result": "good",
+    "clock": 13
+  },
+  {
+    "run_id": "225c2850-7d6a-4f30-b483-a2d576d98f64",
+    "date": "2026-01-15",
+    "time": "21:34:20",
+    "rating": 1148,
+    "href": "/training/j3Id5",
+    "result": "good",
+    "clock": 5
+  },
+  {
+    "run_id": "225c2850-7d6a-4f30-b483-a2d576d98f64",
+    "date": "2026-01-15",
+    "time": "21:34:20",
+    "rating": 1127,
+    "href": "/training/MuTDF",
+    "result": "good",
+    "clock": 5
+  },
+  {
+    "run_id": "225c2850-7d6a-4f30-b483-a2d576d98f64",
+    "date": "2026-01-15",
+    "time": "21:34:20",
+    "rating": 1102,
+    "href": "/training/Ry6uD",
+    "result": "good",
+    "clock": 9
+  },
+  {
+    "run_id": "225c2850-7d6a-4f30-b483-a2d576d98f64",
+    "date": "2026-01-15",
+    "time": "21:34:20",
+    "rating": 1099,
+    "href": "/training/N7AuY",
+    "result": "good",
+    "clock": 11
+  },
+  {
+    "run_id": "225c2850-7d6a-4f30-b483-a2d576d98f64",
+    "date": "2026-01-15",
+    "time": "21:34:20",
+    "rating": 1080,
+    "href": "/training/vS2MA",
+    "result": "good",
+    "clock": 4
+  },
+  {
+    "run_id": "225c2850-7d6a-4f30-b483-a2d576d98f64",
+    "date": "2026-01-15",
+    "time": "21:34:20",
+    "rating": 1072,
+    "href": "/training/COZDQ",
+    "result": "good",
+    "clock": 6
+  },
+  {
+    "run_id": "225c2850-7d6a-4f30-b483-a2d576d98f64",
+    "date": "2026-01-15",
+    "time": "21:34:20",
+    "rating": 1052,
+    "href": "/training/EcVcA",
+    "result": "good",
+    "clock": 4
+  },
+  {
+    "run_id": "225c2850-7d6a-4f30-b483-a2d576d98f64",
+    "date": "2026-01-15",
+    "time": "21:34:20",
+    "rating": 1046,
+    "href": "/training/nH8vk",
+    "result": "good",
+    "clock": 14
+  },
+  {
+    "run_id": "225c2850-7d6a-4f30-b483-a2d576d98f64",
+    "date": "2026-01-15",
+    "time": "21:34:20",
+    "rating": 1018,
+    "href": "/training/RkUI0",
+    "result": "good",
+    "clock": 7
+  },
+  {
+    "run_id": "225c2850-7d6a-4f30-b483-a2d576d98f64",
+    "date": "2026-01-15",
+    "time": "21:34:20",
+    "rating": 1018,
+    "href": "/training/2U6KJ",
+    "result": "good",
+    "clock": 0
+  },
+    {
+    "run_id": "78b5245a-e921-4ddd-9ec5-55fc8505261e",
+    "date": "2026-01-15",
+    "time": "21:37:58",
+    "rating": 1441,
+    "href": "/training/0wI1k",
+    "result": "bad",
+    "clock": 1
+  },
+  {
+    "run_id": "78b5245a-e921-4ddd-9ec5-55fc8505261e",
+    "date": "2026-01-15",
+    "time": "21:37:58",
+    "rating": 1436,
+    "href": "/training/WppiH",
+    "result": "good",
+    "clock": 3
+  },
+  {
+    "run_id": "78b5245a-e921-4ddd-9ec5-55fc8505261e",
+    "date": "2026-01-15",
+    "time": "21:37:58",
+    "rating": 1424,
+    "href": "/training/g8o0l",
+    "result": "good",
+    "clock": 6
+  },
+  {
+    "run_id": "78b5245a-e921-4ddd-9ec5-55fc8505261e",
+    "date": "2026-01-15",
+    "time": "21:37:58",
+    "rating": 1403,
+    "href": "/training/dMZhn",
+    "result": "good",
+    "clock": 9
+  },
+  {
+    "run_id": "78b5245a-e921-4ddd-9ec5-55fc8505261e",
+    "date": "2026-01-15",
+    "time": "21:37:58",
+    "rating": 1332,
+    "href": "/training/kkmTL",
+    "result": "good",
+    "clock": 10
+  },
+  {
+    "run_id": "78b5245a-e921-4ddd-9ec5-55fc8505261e",
+    "date": "2026-01-15",
+    "time": "21:37:58",
+    "rating": 1330,
+    "href": "/training/nLAqY",
+    "result": "bad",
+    "clock": 5
+  },
+  {
+    "run_id": "78b5245a-e921-4ddd-9ec5-55fc8505261e",
+    "date": "2026-01-15",
+    "time": "21:37:58",
+    "rating": 1313,
+    "href": "/training/yfxMj",
+    "result": "good",
+    "clock": 12
+  },
+  {
+    "run_id": "78b5245a-e921-4ddd-9ec5-55fc8505261e",
+    "date": "2026-01-15",
+    "time": "21:37:58",
+    "rating": 1307,
+    "href": "/training/xBWGf",
+    "result": "bad",
+    "clock": 3
+  },
+  {
+    "run_id": "78b5245a-e921-4ddd-9ec5-55fc8505261e",
+    "date": "2026-01-15",
+    "time": "21:37:58",
+    "rating": 1302,
+    "href": "/training/piYCc",
+    "result": "bad",
+    "clock": 6
+  },
+  {
+    "run_id": "78b5245a-e921-4ddd-9ec5-55fc8505261e",
+    "date": "2026-01-15",
+    "time": "21:37:58",
+    "rating": 1286,
+    "href": "/training/5KGiy",
+    "result": "good",
+    "clock": 5
+  },
+  {
+    "run_id": "78b5245a-e921-4ddd-9ec5-55fc8505261e",
+    "date": "2026-01-15",
+    "time": "21:37:58",
+    "rating": 1280,
+    "href": "/training/KTnwQ",
+    "result": "bad",
+    "clock": 8
+  },
+  {
+    "run_id": "78b5245a-e921-4ddd-9ec5-55fc8505261e",
+    "date": "2026-01-15",
+    "time": "21:37:58",
+    "rating": 1271,
+    "href": "/training/aNBQ1",
+    "result": "good",
+    "clock": 5
+  },
+  {
+    "run_id": "78b5245a-e921-4ddd-9ec5-55fc8505261e",
+    "date": "2026-01-15",
+    "time": "21:37:58",
+    "rating": 1194,
+    "href": "/training/GVlkX",
+    "result": "bad",
+    "clock": 12
+  },
+  {
+    "run_id": "78b5245a-e921-4ddd-9ec5-55fc8505261e",
+    "date": "2026-01-15",
+    "time": "21:37:58",
+    "rating": 1178,
+    "href": "/training/oCviM",
+    "result": "good",
+    "clock": 6
+  },
+  {
+    "run_id": "78b5245a-e921-4ddd-9ec5-55fc8505261e",
+    "date": "2026-01-15",
+    "time": "21:37:58",
+    "rating": 1163,
+    "href": "/training/SDGWy",
+    "result": "good",
+    "clock": 4
+  },
+  {
+    "run_id": "78b5245a-e921-4ddd-9ec5-55fc8505261e",
+    "date": "2026-01-15",
+    "time": "21:37:58",
+    "rating": 1156,
+    "href": "/training/4dJRv",
+    "result": "good",
+    "clock": 8
+  },
+  {
+    "run_id": "78b5245a-e921-4ddd-9ec5-55fc8505261e",
+    "date": "2026-01-15",
+    "time": "21:37:58",
+    "rating": 1139,
+    "href": "/training/frjch",
+    "result": "good",
+    "clock": 5
+  },
+  {
+    "run_id": "78b5245a-e921-4ddd-9ec5-55fc8505261e",
+    "date": "2026-01-15",
+    "time": "21:37:58",
+    "rating": 1115,
+    "href": "/training/WiMTB",
+    "result": "good",
+    "clock": 7
+  },
+  {
+    "run_id": "78b5245a-e921-4ddd-9ec5-55fc8505261e",
+    "date": "2026-01-15",
+    "time": "21:37:58",
+    "rating": 1100,
+    "href": "/training/iPsHv",
+    "result": "good",
+    "clock": 6
+  },
+  {
+    "run_id": "78b5245a-e921-4ddd-9ec5-55fc8505261e",
+    "date": "2026-01-15",
+    "time": "21:37:58",
+    "rating": 1091,
+    "href": "/training/kqv3x",
+    "result": "good",
+    "clock": 6
+  },
+  {
+    "run_id": "78b5245a-e921-4ddd-9ec5-55fc8505261e",
+    "date": "2026-01-15",
+    "time": "21:37:58",
+    "rating": 1080,
+    "href": "/training/e0J0h",
+    "result": "good",
+    "clock": 7
+  },
+  {
+    "run_id": "78b5245a-e921-4ddd-9ec5-55fc8505261e",
+    "date": "2026-01-15",
+    "time": "21:37:58",
+    "rating": 1072,
+    "href": "/training/GD3KQ",
+    "result": "good",
+    "clock": 3
+  },
+  {
+    "run_id": "78b5245a-e921-4ddd-9ec5-55fc8505261e",
+    "date": "2026-01-15",
+    "time": "21:37:58",
+    "rating": 1057,
+    "href": "/training/vje8A",
+    "result": "good",
+    "clock": 5
+  },
+  {
+    "run_id": "78b5245a-e921-4ddd-9ec5-55fc8505261e",
+    "date": "2026-01-15",
+    "time": "21:37:58",
+    "rating": 1044,
+    "href": "/training/liIMU",
+    "result": "good",
+    "clock": 4
+  },
+  {
+    "run_id": "78b5245a-e921-4ddd-9ec5-55fc8505261e",
+    "date": "2026-01-15",
+    "time": "21:37:58",
+    "rating": 1032,
+    "href": "/training/LEcNp",
+    "result": "good",
+    "clock": 2
+  },
+  {
+    "run_id": "78b5245a-e921-4ddd-9ec5-55fc8505261e",
+    "date": "2026-01-15",
+    "time": "21:37:58",
+    "rating": 1015,
+    "href": "/training/IURbW",
+    "result": "good",
+    "clock": 0
   }
 ]
