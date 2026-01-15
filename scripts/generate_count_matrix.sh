@@ -18,7 +18,7 @@ fi
 # - Group by both correctness and speed
 # - Count entries in each group
 # - Sort for consistent output
-jq '
+if ! jq '
   map(
     . + {
       speed: (if .clock < 7 then "fast" else "slow" end),
@@ -32,6 +32,9 @@ jq '
     count: length
   }) |
   sort_by(.correctness, .speed)
-' "$INPUT_FILE" > "$OUTPUT_FILE"
+' "$INPUT_FILE" > "$OUTPUT_FILE"; then
+    echo "Error: jq command failed"
+    exit 1
+fi
 
 echo "Generated $OUTPUT_FILE"
