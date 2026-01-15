@@ -16,19 +16,21 @@ fi
 # - Add speed field based on clock value (< 7 is fast, >= 7 is slow)
 # - Add correctness field from result
 # - Add rating_range field based on rating (e.g., "1000-1100", "1100-1200")
+# - Add rating_floor for numeric sorting
 # - Group by rating range, correctness and speed
 # - Count entries in each group
-# - Sort for consistent output
+# - Sort for consistent output (numerically by rating_floor)
 if ! jq '
   map(
     (((.rating / 100) | floor) * 100) as $rating_floor |
     . + {
       speed: (if .clock < 7 then "fast" else "slow" end),
       correctness: .result,
-      rating_range: "\($rating_floor)-\($rating_floor + 100)"
+      rating_range: "\($rating_floor)-\($rating_floor + 100)",
+      rating_floor: $rating_floor
     }
   ) |
-  group_by([.rating_range, .correctness, .speed]) |
+  group_by([.rating_floor, .correctness, .speed]) |
   map({
     rating_range: .[0].rating_range,
     correctness: .[0].correctness,
