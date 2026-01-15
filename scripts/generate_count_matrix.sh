@@ -21,10 +21,11 @@ fi
 # - Sort for consistent output
 if ! jq '
   map(
+    (((.rating / 100) | floor) * 100) as $rating_floor |
     . + {
       speed: (if .clock < 7 then "fast" else "slow" end),
       correctness: .result,
-      rating_range: "\(((.rating / 100) | floor) * 100)-\((((.rating / 100) | floor) * 100) + 100)"
+      rating_range: "\($rating_floor)-\($rating_floor + 100)"
     }
   ) |
   group_by([.rating_range, .correctness, .speed]) |
