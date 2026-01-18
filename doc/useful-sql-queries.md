@@ -6,7 +6,7 @@
 select *, "https://lichess.org" || href as url
 from puzzles_puzzle_storm
 where result = 'bad' and clock > 7
-order by date desc, time desc
+order by clock desc
 ```
 
 ## Add puzzle sequence number
