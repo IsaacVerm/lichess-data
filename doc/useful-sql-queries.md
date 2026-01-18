@@ -45,3 +45,12 @@ FROM puzzles
 group by run_id
 order by accuracy desc
 ```
+
+## Calculate score by run
+
+```sql
+with puzzles as (select date, time, sum(case when result = 'good' then 1 else 0 end) as score
+from puzzles_puzzle_storm
+group by run_id)
+select * from puzzles order by score desc
+```
