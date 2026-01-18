@@ -43,4 +43,5 @@ WITH puzzles AS (
 SELECT run_id, sum(result_int) as count_good, max(seq) as total_count, round(sum(result_int) * 1.0 / max(seq), 2) as accuracy
 FROM puzzles
 group by run_id
+order by accuracy desc
 ```
