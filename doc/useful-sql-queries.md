@@ -46,6 +46,89 @@ group by run_id
 order by accuracy desc
 ```
 
+## Calculate accuracy at several steps in run
+
+```sql
+with puzzles as (
+  select
+    *,
+    row_number() over (partition by run_id order by rating asc) as seq,
+    case when result = 'good' then 1 else 0 end as result_in
+  from puzzles_puzzle_storm
+)
+select
+  a.run_id,
+  count(*) as count_total,
+  sum(a.result_in) as count_good_total,
+  b.count_good as count_good_after_20_puzzles,
+  /* accuracy is between 0 and 1 and without * 1.0 you get the default integer division */
+  round(sum(a.result_in) * 1.0 / count(*), 2) as accuracy_total,
+  (b.count_good * 1.0 / 20) as accuracy_after_20_puzzles
+from puzzles as a
+left join (
+  select
+    run_id,
+    count(*) as count_total,
+    sum(result_in) as count_good
+  from puzzles
+  where seq < 21
+  group by run_id
+) as b
+  on a.run_id = b.run_id
+group by a.run_id
+order by accuracy_total desc;
+```
+
+There are [some optimizations to be made](https://github.com/copilot/share/0a6e500e-40c0-8c10-a941-a609a4de412d):
+- use `AVG` function instead of dividing sum by count manually
+- drop the `JOIN` function by moving the filter from `where seq < 21` to a `CASE` statement:
+
+```sql
+with puzzles as (
+  select
+    *,
+    row_number() over (partition by run_id order by rating asc) as seq,
+    case when result = 'good' then 1 else 0 end as result_in
+  from puzzles_puzzle_storm
+)
+select
+  run_id,
+  count(*) as count_total,
+  sum(result_in) as count_good_total,
+  sum(case when seq < 21 then result_in else 0 end) as count_good_after_20_puzzles,
+  round(avg(result_in), 2) as accuracy_total,
+  round(sum(case when seq < 21 then result_in else 0 end) * 1.0 / 20, 2) as accuracy_after_20_puzzles
+from puzzles
+group by run_id
+order by count_total desc;
+```
+
+## Count purple heart at several steps in run
+
+The above accuracy calculation can be simplified.
+When you score 100% accuracy, it's considered a Purple Heart.
+I no longer care about the exact amount of puzzles solved or solved correctly, just whether all the puzzles.
+This seems to be the best indication of a good score (because Puzzle Storm gives you bonus seconds if you have solved multiple puzzles succesfully in succession).
+
+```sql
+with puzzles as (
+  select
+    *,
+    row_number() over (partition by run_id order by rating asc) as seq,
+    case when result = 'good' then 1 else 0 end as result_in
+  from puzzles_puzzle_storm
+)
+select
+  run_id,
+  /* max(seq) or count(*) give the same result */
+  max(seq) as score_total,
+  round(avg(result_in), 2) as accuracy_total,
+  round(sum(case when seq < 21 then result_in else 0 end) * 1.0 / 20, 2) as accuracy_after_20_puzzles
+from puzzles
+group by run_id
+order by score_total desc;
+```
+
 ## Calculate score by run
 
 ```sql
