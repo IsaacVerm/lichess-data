@@ -9,7 +9,7 @@ select
   run_id,
   date,
   time,
-  count(*) as score
+  sum(case when result = 'good' then 1 else 0 end) as score
 from
   puzzles_puzzle_storm
 group by
