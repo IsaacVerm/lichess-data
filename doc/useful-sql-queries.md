@@ -130,6 +130,23 @@ group by run_id
 order by score_total desc;
 ```
 
+## Only select puzzles from Purple Heart run
+
+When I aim for very high accuracy ("Purple Heart run"), the puzzles I fail I failed because I really missed something.
+This is not just a random fail because I didn't pay attention, but a puzzle failed because I was fooled by something.
+By definition there's less of those puzzles as well, since I pay attention and aim for quality (rather less puzzles solved with high accuracy than more puzzles solved but lower accuracy).
+
+```sql
+SELECT "https://lichess.org" || href as url, run_id
+FROM puzzles_puzzle_storm
+WHERE run_id IN (
+  SELECT run_id
+  FROM puzzles_puzzle_storm
+  GROUP BY run_id
+  HAVING AVG(CASE WHEN result = 'good' THEN 1 ELSE 0 END) > 0.90
+) AND result = 'bad';
+```
+
 ## Calculate score by run
 
 ```sql
