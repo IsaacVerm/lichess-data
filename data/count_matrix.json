@@ -9,19 +9,19 @@
     "rating_range": "1000-1100",
     "correctness": "bad",
     "speed": "slow",
-    "count": 2
+    "count": 3
   },
   {
     "rating_range": "1000-1100",
     "correctness": "good",
     "speed": "fast",
-    "count": 76
+    "count": 83
   },
   {
     "rating_range": "1000-1100",
     "correctness": "good",
     "speed": "slow",
-    "count": 28
+    "count": 34
   },
   {
     "rating_range": "1100-1200",
@@ -39,13 +39,13 @@
     "rating_range": "1100-1200",
     "correctness": "good",
     "speed": "fast",
-    "count": 58
+    "count": 65
   },
   {
     "rating_range": "1100-1200",
     "correctness": "good",
     "speed": "slow",
-    "count": 40
+    "count": 47
   },
   {
     "rating_range": "1200-1300",
@@ -61,63 +61,63 @@
   },
   {
     "rating_range": "1200-1300",
-    "correctness": "good",
-    "speed": "fast",
-    "count": 21
-  },
-  {
-    "rating_range": "1200-1300",
-    "correctness": "good",
-    "speed": "slow",
-    "count": 24
-  },
-  {
-    "rating_range": "1300-1400",
-    "correctness": "bad",
-    "speed": "fast",
-    "count": 12
-  },
-  {
-    "rating_range": "1300-1400",
-    "correctness": "bad",
-    "speed": "slow",
-    "count": 3
-  },
-  {
-    "rating_range": "1300-1400",
     "correctness": "good",
     "speed": "fast",
     "count": 26
   },
   {
+    "rating_range": "1200-1300",
+    "correctness": "good",
+    "speed": "slow",
+    "count": 26
+  },
+  {
+    "rating_range": "1300-1400",
+    "correctness": "bad",
+    "speed": "fast",
+    "count": 13
+  },
+  {
+    "rating_range": "1300-1400",
+    "correctness": "bad",
+    "speed": "slow",
+    "count": 3
+  },
+  {
+    "rating_range": "1300-1400",
+    "correctness": "good",
+    "speed": "fast",
+    "count": 32
+  },
+  {
     "rating_range": "1300-1400",
     "correctness": "good",
     "speed": "slow",
-    "count": 30
+    "count": 32
   },
   {
     "rating_range": "1400-1500",
     "correctness": "bad",
     "speed": "fast",
-    "count": 15
+    "count": 17
   },
   {
     "rating_range": "1400-1500",
     "correctness": "bad",
     "speed": "slow",
-    "count": 7
+    "count": 9
   },
   {
     "rating_range": "1400-1500",
     "correctness": "good",
     "speed": "fast",
-    "count": 11
+    "count": 14
   },
   {
     "rating_range": "1400-1500",
     "correctness": "good",
     "speed": "slow",
-    "count": 21
+    "count": 23
   },
   {
     "rating_range": "1500-1600",
