@@ -147,6 +147,10 @@ WHERE run_id IN (
 ) AND result = 'bad';
 ```
 
+Now I defined a Purple Heart run as a run with a very high accuracy but there are other definitions possible.
+I could for example filter all runs in which the first 20 puzzles solved were all solved succesfully.
+That might even be a more accurate definition.
+
 ## Calculate score by run
 
 ```sql
