@@ -1,5 +1,25 @@
 # Useful SQL queries
 
+I try to order these queries from more general to more specific purposes.
+
+## Overview runs
+
+```sql
+select
+  run_id,
+  date,
+  time,
+  count(*) as score
+from
+  puzzles_puzzle_storm
+group by
+  run_id
+order by
+  score desc
+```
+
+I order by score but could have ordered by date as well.
+
 ## Puzzles I failed and took a long time for in Puzzle Storm
 
 ```sql
