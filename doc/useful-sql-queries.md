@@ -119,7 +119,8 @@ with puzzles as (
   from puzzles_puzzle_storm
 )
 select
-  run_id,
+  date,
+  time,
   /* max(seq) or count(*) give the same result */
   max(seq) as score_total,
   round(avg(result_in), 2) as accuracy_total,
