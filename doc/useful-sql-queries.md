@@ -20,6 +20,16 @@ order by
 
 I order by score but could have ordered by date as well.
 
+## [Puzzles I failed today](https://lite.datasette.io/?json=https%3A%2F%2Fraw.githubusercontent.com%2FIsaacVerm%2Flichess-data%2Fmain%2Fdata%2Fpuzzles_puzzle_storm.json#/data?sql=select+%22https%3A%2F%2Flichess.org%22+%7C%7C+href+as+url%2C+rating%2C+clock%0Afrom+puzzles_puzzle_storm%0Awhere+date+%3D+current_date+and+result+%3D+%27bad%27)
+
+```sql
+select "https://lichess.org" || href as url, rating, clock
+from puzzles_puzzle_storm
+where date = current_date and result = 'bad'
+```
+
+`current_date` is defined by default in SQL (not just in `sqlite`).
+
 ## Puzzles I failed and took a long time for in Puzzle Storm
 
 ```sql
