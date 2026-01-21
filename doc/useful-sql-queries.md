@@ -20,24 +20,26 @@ order by
 
 I order by score but could have ordered by date as well.
 
-## [Puzzles I failed today](https://lite.datasette.io/?json=https%3A%2F%2Fraw.githubusercontent.com%2FIsaacVerm%2Flichess-data%2Fmain%2Fdata%2Fpuzzles_puzzle_storm.json#/data?sql=select+%22https%3A%2F%2Flichess.org%22+%7C%7C+href+as+url%2C+rating%2C+clock%0Afrom+puzzles_puzzle_storm%0Awhere+date+%3D+current_date+and+result+%3D+%27bad%27)
+## [Puzzles I failed today](https://lite.datasette.io/?json=https%3A%2F%2Fraw.githubusercontent.com%2FIsaacVerm%2Flichess-data%2Fmain%2Fdata%2Fpuzzles_puzzle_storm.json#/data?sql=select%0A++%22https%3A%2F%2Flichess.org%22+%7C%7C+href+as+url%2C%0A++case%0A++++when+rating+%3C+1200+then+1%0A++++when+rating+%3E%3D+1200+and+rating+%3C+1400+then+2%0A++++else+3%0A++end+as+rating_class%2C%0A++rating%2C%0A++clock%0Afrom+puzzles_puzzle_storm%0Awhere+date+%3D+current_date+and+result+%3D+%27bad%27%0Aorder+by+rating_class%2C+clock+desc)
+
+Ordered so the easiest puzzles (low `rating_class`) solved the slowest are first on the list.
 
 ```sql
-select "https://lichess.org" || href as url, rating, clock
+select
+  "https://lichess.org" || href as url,
+  case
+    when rating < 1200 then 1
+    when rating >= 1200 and rating < 1400 then 2
+    else 3
+  end as rating_class,
+  rating,
+  clock
 from puzzles_puzzle_storm
 where date = current_date and result = 'bad'
+order by rating_class, clock desc
 ```
 
 `current_date` is defined by default in SQL (not just in `sqlite`).
-
-## Puzzles I failed and took a long time for in Puzzle Storm
-
-```sql
-select *, "https://lichess.org" || href as url
-from puzzles_puzzle_storm
-where result = 'bad' and clock > 7
-order by clock desc
-```
 
 ## Add puzzle sequence number
 
