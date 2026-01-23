@@ -20,6 +20,28 @@ order by
 
 I order by score but could have ordered by date as well.
 
+## Average score by day
+
+```sql
+select
+  date,
+  count(*) as count_runs,
+  round(avg(score),1) as avg_score
+from (
+  select
+    date,
+    sum(case when result = 'good' then 1 else 0 end) as score
+  from
+    puzzles_puzzle_storm
+  group by
+    run_id
+)
+group by
+  date
+order by
+  date desc
+```
+
 ## [Puzzles I failed today](https://lite.datasette.io/?json=https%3A%2F%2Fraw.githubusercontent.com%2FIsaacVerm%2Flichess-data%2Fmain%2Fdata%2Fpuzzles_puzzle_storm.json#/data?sql=select%0A++%22https%3A%2F%2Flichess.org%22+%7C%7C+href+as+url%2C%0A++case%0A++++when+rating+%3C+1200+then+1%0A++++when+rating+%3E%3D+1200+and+rating+%3C+1400+then+2%0A++++else+3%0A++end+as+rating_class%2C%0A++rating%2C%0A++clock%0Afrom+puzzles_puzzle_storm%0Awhere+date+%3D+current_date+and+result+%3D+%27bad%27%0Aorder+by+rating_class%2C+clock+desc)
 
 Ordered so the easiest puzzles (low `rating_class`) solved the slowest are first on the list.
