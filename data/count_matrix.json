@@ -21,19 +21,19 @@
     "rating_range": "1000-1100",
     "correctness": "good",
     "speed": "fast",
-    "count": 187
+    "count": 196
   },
   {
     "rating_range": "1000-1100",
     "correctness": "good",
     "speed": "slow",
-    "count": 68
+    "count": 73
   },
   {
     "rating_range": "1100-1200",
     "correctness": "bad",
     "speed": "fast",
-    "count": 16
+    "count": 17
   },
   {
     "rating_range": "1100-1200",
@@ -45,13 +45,13 @@
     "rating_range": "1100-1200",
     "correctness": "good",
     "speed": "fast",
-    "count": 127
+    "count": 134
   },
   {
     "rating_range": "1100-1200",
     "correctness": "good",
     "speed": "slow",
-    "count": 112
+    "count": 118
   },
   {
     "rating_range": "1200-1300",
@@ -63,19 +63,19 @@
     "rating_range": "1200-1300",
     "correctness": "bad",
     "speed": "slow",
-    "count": 10
+    "count": 12
   },
   {
     "rating_range": "1200-1300",
     "correctness": "good",
     "speed": "fast",
-    "count": 59
+    "count": 61
   },
   {
     "rating_range": "1200-1300",
     "correctness": "good",
     "speed": "slow",
-    "count": 53
+    "count": 55
   },
   {
     "rating_range": "1300-1400",
@@ -93,37 +93,37 @@
     "rating_range": "1300-1400",
     "correctness": "good",
     "speed": "fast",
-    "count": 60
+    "count": 63
   },
   {
     "rating_range": "1300-1400",
     "correctness": "good",
     "speed": "slow",
-    "count": 69
+    "count": 76
   },
   {
     "rating_range": "1400-1500",
     "correctness": "bad",
     "speed": "fast",
-    "count": 23
+    "count": 25
   },
   {
     "rating_range": "1400-1500",
     "correctness": "bad",
     "speed": "slow",
-    "count": 17
+    "count": 19
   },
   {
     "rating_range": "1400-1500",
     "correctness": "good",
     "speed": "fast",
-    "count": 22
+    "count": 25
   },
   {
     "rating_range": "1400-1500",
     "correctness": "good",
     "speed": "slow",
-    "count": 52
+    "count": 55
   },
   {
     "rating_range": "1500-1600",
