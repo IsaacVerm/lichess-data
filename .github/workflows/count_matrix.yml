@@ -1,31 +1,8 @@
 name: Generate Count Matrix
 
-on:
-  push:
-    paths:
-      - 'data/puzzles_puzzle_storm.json'
-    branches:
-      - main
+# This workflow is currently disabled as the count matrix generation
+# is obsolete (related to issue #18). The workflow file is kept for
+# potential future use.
 
-jobs:
-  generate-count-matrix:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-      
-      - name: Generate count matrix
-        run: |
-          chmod +x scripts/generate_count_matrix.sh
-          ./scripts/generate_count_matrix.sh
-      
-      - name: Commit and push if changed
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: Update count_matrix.json
-          file_pattern: 'data/count_matrix.json'
-          commit_user_name: github-actions[bot]
-          commit_user_email: github-actions[bot]@users.noreply.github.com
+on:
+  workflow_dispatch:  # Manual trigger only
