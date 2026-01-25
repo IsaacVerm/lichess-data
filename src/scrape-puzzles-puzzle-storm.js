@@ -7,8 +7,8 @@ const time = now.toTimeString().split(' ')[0]; // HH:MM:SS in 24-hour format
 const escapeCSV = (value) => {
   if (value == null) return '';
   const str = String(value);
-  // Escape if contains comma, quote, or newline
-  if (str.includes(',') || str.includes('"') || str.includes('\n')) {
+  // Escape if contains comma, quote, newline, or carriage return
+  if (str.includes(',') || str.includes('"') || str.includes('\n') || str.includes('\r')) {
     return `"${str.replace(/"/g, '""')}"`;
   }
   return str;
@@ -21,6 +21,6 @@ console.log(
     const href = round.querySelector('a').getAttribute('href');
     const result = round.querySelector('good') ? 'good' : 'bad';
     const clock = parseInt(resultElement.textContent);
-    return `${escapeCSV(runId)},${escapeCSV(date)},${escapeCSV(time)},${rating},${escapeCSV(href)},${escapeCSV(result)},${clock}`;
+    return `${escapeCSV(runId)},${escapeCSV(date)},${escapeCSV(time)},${escapeCSV(rating)},${escapeCSV(href)},${escapeCSV(result)},${escapeCSV(clock)}`;
   }).join('\n')
 )
