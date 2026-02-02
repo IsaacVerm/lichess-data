@@ -16,9 +16,9 @@
     <script>
         // Array of URLs to open in new tabs
         const urls = [
-            'https://lite.datasette.io/?csv=https%3A%2F%2Fraw.githubusercontent.com%2FIsaacVerm%2Flichess-data%2Fmain%2Fdata%2Fpuzzles_puzzle_storm.csv#/data?sql=select%0A++date%2C%0A++count%28*%29+as+count_runs%2C%0A++min%28seq_num_first_puzzle_failed%29+as+worst_first_fail%2C%0A++max%28seq_num_first_puzzle_failed%29+as+best_first_fail%2C%0A++round%28avg%28seq_num_first_puzzle_failed%29%2C+1%29+as+avg_first_fail+from+%28%0Aselect+run_id%2C+date%2C+min%28puzzle_seq_num%29+as+seq_num_first_puzzle_failed+from+%28%0Aselect%0A++run_id%2C%0A++date%2C%0A++result%2C%0A++rating%2C%0A++row_number%28%29+over+%28partition+by+run_id+order+by+rating+asc%29+as+puzzle_seq_num%0Afrom+puzzles_puzzle_storm%29%0Awhere+result+%3D+%27bad%27%0Agroup+by+run_id%0Aorder+by+date+desc%0A%29%0Agroup+by+date%0Aorder+by+date+desc',
-            'https://github.com/IsaacVerm/lichess-data/edit/main/data/puzzles_puzzle_storm.csv',
-            'https://raw.githubusercontent.com/IsaacVerm/lichess-data/refs/heads/main/src/scrape-puzzles-puzzle-storm.js',
+            'https://lite.datasette.io/?csv=https%3A%2F%2Fraw.githubusercontent.com%2FIsaacVerm%2Flichess-data%2Frefs%2Fheads%2Fmain%2Fdata%2Fenrich%2Fenrich_puzzles_puzzle_storm.csv#/data?sql=select%0A++date%2C%0A++row_number%28%29+over+%28partition+by+date+order+by+time+asc%29+as+run_rank_in_session%2C%0A++min%28rank_in_run%29+as+first_fail_rank_in_run%0Afrom%0A++enrich_puzzles_puzzle_storm%0Awhere%0A++result+%3D+%27bad%27%0Agroup+by%0A++run_id%0Aorder+by%0A++date+desc%2C+run_rank_in_session+asc',
+            'https://github.com/IsaacVerm/lichess-data/edit/main/data/raw/puzzles_puzzle_storm.csv',
+            'https://raw.githubusercontent.com/IsaacVerm/lichess-data/refs/heads/main/src/raw/scrape-puzzles-puzzle-storm.js',
             'https://lichess.org/storm'
         ];
 
