@@ -22,7 +22,7 @@ jobs:
           python-version: '3.x'
       
       - name: Install sqlite-utils
-        run: pip install sqlite-utils
+        run: pip install sqlite-utils==3.39
       
       - name: Make pipeline script executable
         run: chmod +x src/pipeline.sh

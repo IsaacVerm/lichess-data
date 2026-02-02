@@ -1,7 +1,7 @@
 # clean out previous data (only raw data is kept)
-rm -f data/enrich/*
-rm -f data/filter/*
-rm -f data/agg/*
+find data/enrich -type f -delete 2>/dev/null || true
+find data/filter -type f -delete 2>/dev/null || true
+find data/agg -type f -delete 2>/dev/null || true
 
 # enrich
 sqlite-utils memory data/raw/puzzles_puzzle_storm.csv "$(cat src/enrich/enrich_puzzles_puzzle_storm.sql)" --csv \
