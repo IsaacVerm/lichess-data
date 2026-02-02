@@ -1,0 +1,31 @@
+name: Run Pipeline
+
+on:
+  push:
+    paths:
+      - 'data/raw/puzzles_puzzle_storm.csv'
+  pull_request:
+    paths:
+      - 'data/raw/puzzles_puzzle_storm.csv'
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      
+      - name: Install sqlite-utils
+        run: pip install sqlite-utils
+      
+      - name: Make pipeline script executable
+        run: chmod +x src/pipeline.sh
+      
+      - name: Run pipeline
+        run: ./src/pipeline.sh
