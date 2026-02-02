@@ -12,7 +12,7 @@ jobs:
   run-pipeline:
     runs-on: ubuntu-latest
     permissions:
-      contents: read
+      contents: write
     
     steps:
       - name: Checkout repository
@@ -31,3 +31,21 @@ jobs:
       
       - name: Run pipeline
         run: ./src/pipeline.sh
+      
+      - name: Configure Git
+        if: github.event_name == 'push'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+      
+      - name: Commit updated data files
+        if: github.event_name == 'push'
+        run: |
+          git add data/enrich/ data/filter/ data/agg/
+          if ! git diff --staged --quiet; then
+            git commit -m "update data files derived from raw data files"
+          fi
+      
+      - name: Push changes
+        if: github.event_name == 'push'
+        run: git push || true
