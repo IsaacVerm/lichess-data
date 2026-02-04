@@ -132,15 +132,18 @@ async function generateMarkdown() {
       
       console.log(`  Initial Ply: ${initialPly}`);
       
-      // Get FEN at initial ply
-      const fen = getFenFromPgn(pgn, initialPly);
+      // In Lichess puzzles, initialPly represents the position after the opponent's move,
+      // but we need to show the position where it's the player's turn (white in puzzle view).
+      // Since puzzles show the position where you need to find the move, we use initialPly + 1.
+      const fen = getFenFromPgn(pgn, initialPly + 1);
       console.log(`  FEN: ${fen}`);
       
-      // Determine color to play from FEN (second field indicates active color)
-      const color = fen.split(' ')[1] === 'w' ? 'white' : 'black';
+      // In Lichess puzzles, the board is always shown from white's perspective
+      // regardless of whose turn it is in the FEN
+      const color = 'white';
       
-      // Get last move in UCI format
-      const lastMove = getLastMoveUCI(pgn, initialPly);
+      // Get last move in UCI format (the move that led to this position)
+      const lastMove = getLastMoveUCI(pgn, initialPly + 1);
       console.log(`  Last move: ${lastMove || 'none'}`);
       
       // Construct screenshot URL
