@@ -6,6 +6,18 @@ import { Chess } from 'chess.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
+// Rate limiting delay to avoid Lichess API throttling (in milliseconds)
+const API_RATE_LIMIT_DELAY = 500;
+
+// Helper function to parse PGN moves into an array
+function parsePgnMoves(pgn) {
+  // Parse PGN moves (space-separated)
+  return pgn.split(/\s+/).filter(move => {
+    // Filter out move numbers and comments
+    return move && !move.match(/^\d+\.+$/) && !move.startsWith('{') && !move.startsWith('(');
+  });
+}
+
 // Function to fetch puzzle data from Lichess API
 async function fetchPuzzleData(puzzleId) {
   const response = await fetch(`https://lichess.org/api/puzzle/${puzzleId}`);
@@ -18,12 +30,7 @@ async function fetchPuzzleData(puzzleId) {
 // Function to get FEN from PGN at a specific ply
 function getFenFromPgn(pgn, plyNumber) {
   const chess = new Chess();
-  
-  // Parse PGN moves (space-separated)
-  const moves = pgn.split(/\s+/).filter(move => {
-    // Filter out move numbers and comments
-    return move && !move.match(/^\d+\.+$/) && !move.startsWith('{') && !move.startsWith('(');
-  });
+  const moves = parsePgnMoves(pgn);
   
   // Play moves up to the specified ply
   for (let i = 0; i < plyNumber; i++) {
@@ -42,9 +49,7 @@ function getFenFromPgn(pgn, plyNumber) {
 
 // Function to get the last move in SAN notation
 function getLastMove(pgn, plyNumber) {
-  const moves = pgn.split(/\s+/).filter(move => {
-    return move && !move.match(/^\d+\.+$/) && !move.startsWith('{') && !move.startsWith('(');
-  });
+  const moves = parsePgnMoves(pgn);
   
   if (plyNumber > 0 && plyNumber <= moves.length) {
     return moves[plyNumber - 1];
@@ -57,9 +62,7 @@ function getLastMoveUCI(pgn, plyNumber) {
   if (plyNumber === 0) return null;
   
   const chess = new Chess();
-  const moves = pgn.split(/\s+/).filter(move => {
-    return move && !move.match(/^\d+\.+$/) && !move.startsWith('{') && !move.startsWith('(');
-  });
+  const moves = parsePgnMoves(pgn);
   
   // Play moves up to plyNumber - 1
   for (let i = 0; i < plyNumber - 1; i++) {
@@ -147,8 +150,8 @@ async function generateMarkdown() {
       
       console.log(`  ✓ Added to markdown`);
       
-      // Small delay to avoid rate limiting
-      await new Promise(resolve => setTimeout(resolve, 500));
+      // Rate limiting to respect Lichess API limits
+      await new Promise(resolve => setTimeout(resolve, API_RATE_LIMIT_DELAY));
     } catch (error) {
       console.error(`  ✗ Error processing puzzle ${puzzleId}:`, error.message);
       // Continue with next puzzle
