@@ -99,8 +99,8 @@ function constructScreenshotUrl(fen, color, lastMove) {
 
 // Main function
 async function generateMarkdown() {
-  const csvPath = join(__dirname, '../data/filter/easy-puzzles-failed-today-or-yesterday.csv');
-  const outputPath = join(__dirname, '../data/easy-puzzles-failed.md');
+  const csvPath = join(__dirname, '../data/filter/hardest-puzzles-failed.csv');
+  const outputPath = join(__dirname, '../data/hardest-puzzles-failed.md');
   
   console.log('Reading CSV file...');
   const csvContent = readFileSync(csvPath, 'utf-8');
@@ -113,13 +113,13 @@ async function generateMarkdown() {
   
   // Extract unique puzzle IDs from href column
   const puzzleIds = [...new Set(records.map(record => {
-    const href = record.href;
-    return href.replace('/training/', '');
+    const url = record.url;
+    return url.replace('https://lichess.org/training/', '');
   }))];
   
   console.log(`Processing ${puzzleIds.length} unique puzzles`);
   
-  let markdown = '# Easy puzzles failed today or yesterday\n\n';
+  let markdown = '# Hardest puzzles failed\n\n';
   
   for (const puzzleId of puzzleIds) {
     console.log(`\nProcessing puzzle: ${puzzleId}`);

@@ -51,7 +51,7 @@ datasette serve game_results.db
 To generate a Markdown document with screenshots of easy puzzles you failed:
 
 ```
-npm run generate-puzzle-doc
+npm run markdown-hardest-puzzles-failed
 ```
 
 This script:

@@ -4,7 +4,7 @@
   "description": "Lichess data analysis",
   "type": "module",
   "scripts": {
-    "generate-puzzle-doc": "node src/generate-puzzle-markdown.js"
+    "markdown-hardest-puzzles-failed": "node src/markdown-hardest-puzzles-failed.js"
   },
   "dependencies": {
     "chess.js": "^1.4.0",
