@@ -10,11 +10,13 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const API_RATE_LIMIT_DELAY = 500;
 
 // Helper function to parse PGN moves into an array
+// Note: This assumes Lichess API PGN format without comments or variations
+// which is the standard format returned by the puzzle API
 function parsePgnMoves(pgn) {
   // Parse PGN moves (space-separated)
   return pgn.split(/\s+/).filter(move => {
-    // Filter out move numbers and comments
-    return move && !move.match(/^\d+\.+$/) && !move.startsWith('{') && !move.startsWith('(');
+    // Filter out move numbers (e.g., "1.", "2.", etc.)
+    return move && !move.match(/^\d+\.+$/);
   });
 }
 
@@ -134,8 +136,8 @@ async function generateMarkdown() {
       const fen = getFenFromPgn(pgn, initialPly);
       console.log(`  FEN: ${fen}`);
       
-      // Determine color to play (if ply is even, white to play, else black)
-      const color = initialPly % 2 === 0 ? 'white' : 'black';
+      // Determine color to play from FEN (second field indicates active color)
+      const color = fen.split(' ')[1] === 'w' ? 'white' : 'black';
       
       // Get last move in UCI format
       const lastMove = getLastMoveUCI(pgn, initialPly);
