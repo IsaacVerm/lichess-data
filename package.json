@@ -1,0 +1,13 @@
+{
+  "name": "lichess-data",
+  "version": "1.0.0",
+  "description": "Lichess data analysis",
+  "type": "module",
+  "scripts": {
+    "generate-puzzle-doc": "node src/generate-puzzle-markdown.js"
+  },
+  "dependencies": {
+    "chess.js": "^1.4.0",
+    "csv-parse": "^5.5.3"
+  }
+}
