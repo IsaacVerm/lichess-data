@@ -16,3 +16,5 @@ sqlite-utils memory data/enrich/enrich_puzzles_puzzle_storm.csv "$(cat src/filte
 # agg
 sqlite-utils memory data/enrich/enrich_puzzles_puzzle_storm.csv "$(cat src/agg/first-fail-by-run.sql)" --csv \
     > data/agg/first-fail-by-run.csv
+sqlite-utils memory data/enrich/enrich_puzzles_puzzle_storm.csv "$(cat src/agg/stats-first-fail-by-date.sql)" --csv \
+    > data/agg/stats-first-fail-by-date.csv
