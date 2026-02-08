@@ -1,6 +1,9 @@
 run_id,date,time,rating,href,result,clock,url,rank_in_run
 5d58a001-7ef0-4871-8161-72ae0b97bea3,2026-02-07,22:37:16,1094,/training/nVbnb,bad,10,https://lichess.org/training/nVbnb,7
 5d58a001-7ef0-4871-8161-72ae0b97bea3,2026-02-07,22:37:16,1111,/training/Z68rI,bad,10,https://lichess.org/training/Z68rI,8
+67a90eaf-c544-434b-b4a3-0c574e8920bd,2026-02-08,11:39:33,1079,/training/2g1O9,bad,3,https://lichess.org/training/2g1O9,6
+67a90eaf-c544-434b-b4a3-0c574e8920bd,2026-02-08,11:39:33,1092,/training/0aeP1,bad,2,https://lichess.org/training/0aeP1,7
+67a90eaf-c544-434b-b4a3-0c574e8920bd,2026-02-08,11:39:33,1315,/training/km1cr,bad,2,https://lichess.org/training/km1cr,19
 a1e04928-9bf8-461e-9bba-c9b3057a61c4,2026-02-08,11:35:43,1146,/training/JbGGn,bad,11,https://lichess.org/training/JbGGn,10
 a1e04928-9bf8-461e-9bba-c9b3057a61c4,2026-02-08,11:35:43,1158,/training/CL3UY,bad,4,https://lichess.org/training/CL3UY,11
 a1e04928-9bf8-461e-9bba-c9b3057a61c4,2026-02-08,11:35:43,1307,/training/T7B9z,bad,4,https://lichess.org/training/T7B9z,18
