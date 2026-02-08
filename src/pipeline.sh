@@ -8,8 +8,8 @@ sqlite-utils memory data/raw/puzzles_puzzle_storm.csv "$(cat src/enrich/enrich_p
     > data/enrich/enrich_puzzles_puzzle_storm.csv
 
 # filter
-sqlite-utils memory data/enrich/enrich_puzzles_puzzle_storm.csv "$(cat src/filter/easy-puzzles-failed-today-or-yesterday.sql)" --csv \
-    > data/filter/easy-puzzles-failed-today-or-yesterday.csv
+sqlite-utils memory data/enrich/enrich_puzzles_puzzle_storm.csv "$(cat src/filter/recent-puzzles-failed.sql)" --csv \
+    > data/filter/recent-puzzles-failed.csv
 sqlite-utils memory data/enrich/enrich_puzzles_puzzle_storm.csv "$(cat src/filter/hardest-puzzles-failed.sql)" --csv \
     > data/filter/hardest-puzzles-failed.csv
 
