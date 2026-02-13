@@ -1,5 +1,5 @@
 date,count_runs,min_rank_first_fail,max_score,deviation_early_fail_high_score,avg_rank_in_run_first_fail
-2026-02-13,2,16,25,9,20.67
+2026-02-13,3,16,28,12,22.56
 2026-02-12,3,11,25,14,18.86
 2026-02-11,2,6,30,24,16.33
 2026-02-09,6,12,27,15,20.69
