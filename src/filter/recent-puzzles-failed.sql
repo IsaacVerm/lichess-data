@@ -1,7 +1,8 @@
 select
+  rank_run,
+  url,
   rating,
-  clock,
-  url
+  clock
 from
   enrich_puzzles_puzzle_storm
 where
@@ -10,4 +11,4 @@ where
   ((select max(rank_run) from enrich_puzzles_puzzle_storm) - rank_run) < 5
   and result = 'bad'
 order by
-  clock desc
+  rank_run desc
