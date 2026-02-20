@@ -1,4 +1,6 @@
 rank_run,url,rating,clock
+115,https://lichess.org/training/6vVFk,1339,9
+115,https://lichess.org/training/W6nEu,1423,5
 114,https://lichess.org/training/aniSu,1270,9
 114,https://lichess.org/training/aCGzp,1294,14
 114,https://lichess.org/training/KBzRa,1328,4
@@ -8,9 +10,3 @@ rank_run,url,rating,clock
 111,https://lichess.org/training/SQxjY,1155,5
 111,https://lichess.org/training/cyv6g,1421,3
 111,https://lichess.org/training/I8C71,1428,8
-110,https://lichess.org/training/uf5Ui,1066,8
-110,https://lichess.org/training/LAwDb,1133,32
-110,https://lichess.org/training/G33om,1145,4
-110,https://lichess.org/training/sfu5N,1164,27
-110,https://lichess.org/training/TjwWh,1182,6
-110,https://lichess.org/training/UQaXj,1199,9
