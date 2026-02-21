@@ -1,0 +1,5 @@
+run_id,date,time,rating,href,result,clock,url,rank_in_run,rank_in_result,rank_run
+2199696f-d074-42f8-a21e-0f1086500dff,2026-02-20,16:50:00,1311,/training/IJmfQ,good,5,https://lichess.org/training/IJmfQ,19,2541,117
+2199696f-d074-42f8-a21e-0f1086500dff,2026-02-20,16:50:00,1322,/training/mVQLW,good,27,https://lichess.org/training/mVQLW,20,2542,117
+2199696f-d074-42f8-a21e-0f1086500dff,2026-02-20,16:50:00,1323,/training/Br8Tq,good,8,https://lichess.org/training/Br8Tq,21,2543,117
+2199696f-d074-42f8-a21e-0f1086500dff,2026-02-20,16:50:00,1339,/training/qeEHY,good,4,https://lichess.org/training/qeEHY,22,2544,117

@@ -12,6 +12,7 @@ sqlite-utils memory data/enrich/enrich_puzzles_puzzle_storm.csv "$(cat src/filte
     > data/filter/recent-puzzles-failed.csv
 sqlite-utils memory data/enrich/enrich_puzzles_puzzle_storm.csv "$(cat src/filter/hardest-puzzles-failed.sql)" --csv \
     > data/filter/hardest-puzzles-failed.csv
+bash src/filter/training_plan/buckets.sh
 
 # agg
 sqlite-utils memory data/enrich/enrich_puzzles_puzzle_storm.csv "$(cat src/agg/first-fail-by-run.sql)" --csv \
