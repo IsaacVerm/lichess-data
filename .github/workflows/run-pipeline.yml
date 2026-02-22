@@ -1,6 +1,7 @@
 name: Run Pipeline
 
 on:
+  workflow_dispatch:
   push:
     paths:
       - 'data/raw/puzzles_puzzle_storm.csv'

@@ -1,6 +1,6 @@
 # How to run the data pipeline
 
-Make sure [sqlite-utils](https://sqlite-utils.datasette.io/en/stable/) is installed.
+Make sure [setup is completed](../../README.md#setup).
 
 ```
 ./src/pipeline.sh

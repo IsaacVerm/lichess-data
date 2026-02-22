@@ -1,8 +1,0 @@
-name: Generate Count Matrix
-
-# This workflow is currently disabled as the count matrix generation
-# is obsolete (related to issue #18). The workflow file is kept for
-# potential future use.
-
-on:
-  workflow_dispatch:  # Manual trigger only
