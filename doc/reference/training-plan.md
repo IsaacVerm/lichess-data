@@ -1,6 +1,6 @@
 # Training plan
 
-## [2026-04-22](https://lite.datasette.io/?csv=https%3A%2F%2Fraw.githubusercontent.com%2FIsaacVerm%2Flichess-data%2Fmaster%2Fdata%2Fenrich%2Fenrich_puzzles_puzzle_storm.csv#/data?sql=select+date%2C+time%2C+rating%2C+url+from+enrich_puzzles_puzzle_storm+where+result+%3D+%27bad%27+and+training_bucket+%3D+0+order+by+date+desc%2C+time+desc%2C+rating+desc)
+## [2026-02-22](https://lite.datasette.io/?csv=https%3A%2F%2Fraw.githubusercontent.com%2FIsaacVerm%2Flichess-data%2Fmaster%2Fdata%2Fenrich%2Fenrich_puzzles_puzzle_storm.csv#/data?sql=select+date%2C+time%2C+rating%2C+url+from+enrich_puzzles_puzzle_storm+where+result+%3D+%27bad%27+and+training_bucket+%3D+0+order+by+date+desc%2C+time+desc%2C+rating+desc)
 
 ### https://lichess.org/training/WeNKn
 
@@ -14,15 +14,21 @@ Could only see the pattern knight + rook, didn't get you could introduce a third
 
 I was too focused on mate so I totally missed the rook en prise.
 
-## [2026-04-23](https://lite.datasette.io/?csv=https%3A%2F%2Fraw.githubusercontent.com%2FIsaacVerm%2Flichess-data%2Fmaster%2Fdata%2Fenrich%2Fenrich_puzzles_puzzle_storm.csv#/data?sql=select+date%2C+time%2C+rating%2C+url+from+enrich_puzzles_puzzle_storm+where+result+%3D+%27bad%27+and+training_bucket+%3D+1+order+by+date+desc%2C+time+desc%2C+rating+desc)
+## [2026-02-23](https://lite.datasette.io/?csv=https%3A%2F%2Fraw.githubusercontent.com%2FIsaacVerm%2Flichess-data%2Fmaster%2Fdata%2Fenrich%2Fenrich_puzzles_puzzle_storm.csv#/data?sql=select+date%2C+time%2C+rating%2C+url+from+enrich_puzzles_puzzle_storm+where+result+%3D+%27bad%27+and+training_bucket+%3D+1+order+by+date+desc%2C+time+desc%2C+rating+desc)
 
-## [2026-04-24](https://lite.datasette.io/?csv=https%3A%2F%2Fraw.githubusercontent.com%2FIsaacVerm%2Flichess-data%2Fmaster%2Fdata%2Fenrich%2Fenrich_puzzles_puzzle_storm.csv#/data?sql=select+date%2C+time%2C+rating%2C+url+from+enrich_puzzles_puzzle_storm+where+result+%3D+%27bad%27+and+training_bucket+%3D+2+order+by+date+desc%2C+time+desc%2C+rating+desc)
+### https://lichess.org/training/A1U3K
 
-## [2026-04-25](https://lite.datasette.io/?csv=https%3A%2F%2Fraw.githubusercontent.com%2FIsaacVerm%2Flichess-data%2Fmaster%2Fdata%2Fenrich%2Fenrich_puzzles_puzzle_storm.csv#/data?sql=select+date%2C+time%2C+rating%2C+url+from+enrich_puzzles_puzzle_storm+where+result+%3D+%27bad%27+and+training_bucket+%3D+3+order+by+date+desc%2C+time+desc%2C+rating+desc)
+![](https://lichess1.org/export/fen.gif?fen=2r3k1%2F3Q1pp1%2F7p%2F4R3%2F8%2F1P1P3P%2FKPq4P%2F2B5+b+-+-+3+25&color=black&lastMove=b1a2&variant=standard&theme=brown&piece=cburnett)
 
-## [2026-04-26](https://lite.datasette.io/?csv=https%3A%2F%2Fraw.githubusercontent.com%2FIsaacVerm%2Flichess-data%2Fmaster%2Fdata%2Fenrich%2Fenrich_puzzles_puzzle_storm.csv#/data?sql=select+date%2C+time%2C+rating%2C+url+from+enrich_puzzles_puzzle_storm+where+result+%3D+%27bad%27+and+training_bucket+%3D+4+order+by+date+desc%2C+time+desc%2C+rating+desc)
+Too focused on taking the bishop so I forgot about going for more.
 
-## [2026-04-27](https://lite.datasette.io/?csv=https%3A%2F%2Fraw.githubusercontent.com%2FIsaacVerm%2Flichess-data%2Fmaster%2Fdata%2Fenrich%2Fenrich_puzzles_puzzle_storm.csv#/data?sql=select+date%2C+time%2C+rating%2C+url+from+enrich_puzzles_puzzle_storm+where+result+%3D+%27bad%27+and+training_bucket+%3D+5+order+by+date+desc%2C+time+desc%2C+rating+desc)
+## [2026-02-24](https://lite.datasette.io/?csv=https%3A%2F%2Fraw.githubusercontent.com%2FIsaacVerm%2Flichess-data%2Fmaster%2Fdata%2Fenrich%2Fenrich_puzzles_puzzle_storm.csv#/data?sql=select+date%2C+time%2C+rating%2C+url+from+enrich_puzzles_puzzle_storm+where+result+%3D+%27bad%27+and+training_bucket+%3D+2+order+by+date+desc%2C+time+desc%2C+rating+desc)
+
+## [2026-02-25](https://lite.datasette.io/?csv=https%3A%2F%2Fraw.githubusercontent.com%2FIsaacVerm%2Flichess-data%2Fmaster%2Fdata%2Fenrich%2Fenrich_puzzles_puzzle_storm.csv#/data?sql=select+date%2C+time%2C+rating%2C+url+from+enrich_puzzles_puzzle_storm+where+result+%3D+%27bad%27+and+training_bucket+%3D+3+order+by+date+desc%2C+time+desc%2C+rating+desc)
+
+## [2026-02-26](https://lite.datasette.io/?csv=https%3A%2F%2Fraw.githubusercontent.com%2FIsaacVerm%2Flichess-data%2Fmaster%2Fdata%2Fenrich%2Fenrich_puzzles_puzzle_storm.csv#/data?sql=select+date%2C+time%2C+rating%2C+url+from+enrich_puzzles_puzzle_storm+where+result+%3D+%27bad%27+and+training_bucket+%3D+4+order+by+date+desc%2C+time+desc%2C+rating+desc)
+
+## [2026-02-27](https://lite.datasette.io/?csv=https%3A%2F%2Fraw.githubusercontent.com%2FIsaacVerm%2Flichess-data%2Fmaster%2Fdata%2Fenrich%2Fenrich_puzzles_puzzle_storm.csv#/data?sql=select+date%2C+time%2C+rating%2C+url+from+enrich_puzzles_puzzle_storm+where+result+%3D+%27bad%27+and+training_bucket+%3D+5+order+by+date+desc%2C+time+desc%2C+rating+desc)
 
 ## [2026-04-28](https://lite.datasette.io/?csv=https%3A%2F%2Fraw.githubusercontent.com%2FIsaacVerm%2Flichess-data%2Fmaster%2Fdata%2Fenrich%2Fenrich_puzzles_puzzle_storm.csv#/data?sql=select+date%2C+time%2C+rating%2C+url+from+enrich_puzzles_puzzle_storm+where+result+%3D+%27bad%27+and+training_bucket+%3D+6+order+by+date+desc%2C+time+desc%2C+rating+desc)
 
