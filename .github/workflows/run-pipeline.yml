@@ -34,13 +34,13 @@ jobs:
         run: ./src/pipeline.sh
       
       - name: Configure Git
-        if: github.event_name == 'push'
+        if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
       
       - name: Commit updated data files
-        if: github.event_name == 'push'
+        if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
         run: |
           git add data/enrich/ data/filter/ data/agg/
           if ! git diff --staged --quiet; then
@@ -48,5 +48,5 @@ jobs:
           fi
       
       - name: Push changes
-        if: github.event_name == 'push'
+        if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
         run: git push || true
