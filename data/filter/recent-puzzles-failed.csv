@@ -1,4 +1,7 @@
 rank_run,url,rating,clock
+124,https://lichess.org/training/fdCrQ,1303,16
+124,https://lichess.org/training/BF8QP,1316,4
+124,https://lichess.org/training/dZD8u,1330,12
 123,https://lichess.org/training/PMvhc,1094,6
 123,https://lichess.org/training/vShTd,1423,12
 123,https://lichess.org/training/vxyWp,1451,6
@@ -10,6 +13,3 @@ rank_run,url,rating,clock
 120,https://lichess.org/training/t3v1Z,1046,6
 120,https://lichess.org/training/UDGzL,1151,3
 120,https://lichess.org/training/CyCyH,1426,4
-119,https://lichess.org/training/KQVDR,1035,5
-119,https://lichess.org/training/6kmOi,1177,13
-119,https://lichess.org/training/sDXUB,1432,7
