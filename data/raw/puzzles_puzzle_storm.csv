@@ -1,4 +1,31 @@
 run_id,date,time,rating,href,result,clock
+d8c3f108-15a4-4bf5-8c69-37fabcbc431b,2026-02-25,13:40:36,1438,/training/yivAE,bad,29
+d8c3f108-15a4-4bf5-8c69-37fabcbc431b,2026-02-25,13:40:36,1429,/training/Ojmsq,good,6
+d8c3f108-15a4-4bf5-8c69-37fabcbc431b,2026-02-25,13:40:36,1424,/training/bbgZ4,good,7
+d8c3f108-15a4-4bf5-8c69-37fabcbc431b,2026-02-25,13:40:36,1421,/training/otxbY,good,11
+d8c3f108-15a4-4bf5-8c69-37fabcbc431b,2026-02-25,13:40:36,1417,/training/gmv9a,good,11
+d8c3f108-15a4-4bf5-8c69-37fabcbc431b,2026-02-25,13:40:36,1333,/training/3rPHY,good,3
+d8c3f108-15a4-4bf5-8c69-37fabcbc431b,2026-02-25,13:40:36,1327,/training/NDCCN,good,24
+d8c3f108-15a4-4bf5-8c69-37fabcbc431b,2026-02-25,13:40:36,1323,/training/5VGxC,good,9
+d8c3f108-15a4-4bf5-8c69-37fabcbc431b,2026-02-25,13:40:36,1309,/training/A7Vf8,good,9
+d8c3f108-15a4-4bf5-8c69-37fabcbc431b,2026-02-25,13:40:36,1297,/training/P0gIJ,good,7
+d8c3f108-15a4-4bf5-8c69-37fabcbc431b,2026-02-25,13:40:36,1289,/training/QxxRt,bad,11
+d8c3f108-15a4-4bf5-8c69-37fabcbc431b,2026-02-25,13:40:36,1276,/training/nG99i,good,13
+d8c3f108-15a4-4bf5-8c69-37fabcbc431b,2026-02-25,13:40:36,1275,/training/kos7Z,good,4
+d8c3f108-15a4-4bf5-8c69-37fabcbc431b,2026-02-25,13:40:36,1192,/training/FwGaf,good,8
+d8c3f108-15a4-4bf5-8c69-37fabcbc431b,2026-02-25,13:40:36,1184,/training/FbMmO,good,8
+d8c3f108-15a4-4bf5-8c69-37fabcbc431b,2026-02-25,13:40:36,1175,/training/eCCwn,good,7
+d8c3f108-15a4-4bf5-8c69-37fabcbc431b,2026-02-25,13:40:36,1153,/training/j2hKG,good,6
+d8c3f108-15a4-4bf5-8c69-37fabcbc431b,2026-02-25,13:40:36,1143,/training/QWiIE,good,5
+d8c3f108-15a4-4bf5-8c69-37fabcbc431b,2026-02-25,13:40:36,1135,/training/LkvPd,good,3
+d8c3f108-15a4-4bf5-8c69-37fabcbc431b,2026-02-25,13:40:36,1110,/training/BUM5e,good,4
+d8c3f108-15a4-4bf5-8c69-37fabcbc431b,2026-02-25,13:40:36,1098,/training/yNilo,good,3
+d8c3f108-15a4-4bf5-8c69-37fabcbc431b,2026-02-25,13:40:36,1089,/training/qaBOW,good,3
+d8c3f108-15a4-4bf5-8c69-37fabcbc431b,2026-02-25,13:40:36,1078,/training/00piA,good,6
+d8c3f108-15a4-4bf5-8c69-37fabcbc431b,2026-02-25,13:40:36,1059,/training/RUhli,good,4
+d8c3f108-15a4-4bf5-8c69-37fabcbc431b,2026-02-25,13:40:36,1036,/training/fwPXm,good,4
+d8c3f108-15a4-4bf5-8c69-37fabcbc431b,2026-02-25,13:40:36,1027,/training/HIWRF,good,6
+d8c3f108-15a4-4bf5-8c69-37fabcbc431b,2026-02-25,13:40:36,1017,/training/Uavz5,good,0
 da653f7b-eb15-4107-8339-3756dbd05599,2026-02-25,10:48:21,1430,/training/THHG6,bad,14
 da653f7b-eb15-4107-8339-3756dbd05599,2026-02-25,10:48:21,1425,/training/5LCSS,bad,22
 da653f7b-eb15-4107-8339-3756dbd05599,2026-02-25,10:48:21,1412,/training/Zm5Uf,good,8
@@ -3150,6 +3177,7 @@ b0662282-feb2-47b5-9e97-3ba6741947aa,2026-01-15,14:49:23,1017,/training/6mpzJ,go
 36bf7329-656e-45a6-95dd-2b0308ad1472,2026-01-18,08:06:52,1031,/training/bOBSl,good,4
 36bf7329-656e-45a6-95dd-2b0308ad1472,2026-01-18,08:06:52,1023,/training/MHNC3,good,4
 36bf7329-656e-45a6-95dd-2b0308ad1472,2026-01-18,08:06:52,1000,/training/jGqZH,good,0
+
 
 
 
