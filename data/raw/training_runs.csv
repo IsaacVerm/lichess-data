@@ -1,1 +1,3 @@
-training_set,date,failed_puzzle_id
+training_set,date,failed_puzzle_url
+40,2026-03-06,https://lichess.org/training/FBAiq
+40,2026-03-06,https://lichess.org/training/hGeej
