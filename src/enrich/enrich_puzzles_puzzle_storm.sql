@@ -15,6 +15,7 @@ run_ranks as (
 )
 select
     p.*,
+    t.themes,
     'https://lichess.org' || href as url,
     row_number() over (partition by run_id order by rating asc) as rank_in_run,
     row_number() over (partition by result order by date, time, rating asc) as rank_in_result,
@@ -22,5 +23,6 @@ select
     r.rank_run
 from
     puzzles_puzzle_storm p
+    left join raw_puzzle_themes t on t.puzzle_id = replace(p.href, '/training/', '')
     join run_ranks r using (run_id)
     order by date desc, time desc
