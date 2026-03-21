@@ -1,22 +1,23 @@
 # clean out previous data (only raw data is kept)
-find data/enrich -type f -delete 2>/dev/null || true
-find data/filter -type f -delete 2>/dev/null || true
-find data/agg -type f -delete 2>/dev/null || true
+rm data/enrich/*
+rm data/filter/*
+rm data/agg/*
+rm lichess.db
 
 # enrich
 sqlite-utils memory data/raw/puzzles_puzzle_storm.csv "$(cat src/enrich/enrich_puzzles_puzzle_storm.sql)" --csv \
     > data/enrich/enrich_puzzles_puzzle_storm.csv
 
 # filter
-sqlite-utils memory data/enrich/enrich_puzzles_puzzle_storm.csv "$(cat src/filter/recent-puzzles-failed.sql)" --csv \
-    > data/filter/recent-puzzles-failed.csv
-sqlite-utils memory data/enrich/enrich_puzzles_puzzle_storm.csv "$(cat src/filter/hardest-puzzles-failed.sql)" --csv \
-    > data/filter/hardest-puzzles-failed.csv
-sqlite-utils memory data/enrich/enrich_puzzles_puzzle_storm.csv "$(cat src/filter/10-random-puzzles.sql)" --csv \
-    > data/filter/10-random-puzzles.csv
+sqlite-utils memory data/enrich/enrich_puzzles_puzzle_storm.csv "$(cat src/filter/10_random_puzzles.sql)" --csv \
+    > data/filter/10_random_puzzles.csv
+sqlite-utils memory data/enrich/enrich_puzzles_puzzle_storm.csv "$(cat src/filter/focus_training_sets.sql)" --csv \
+    > data/filter/focus_training_sets.csv
 
 # agg
-sqlite-utils memory data/enrich/enrich_puzzles_puzzle_storm.csv "$(cat src/agg/first-fail-by-run.sql)" --csv \
-    > data/agg/first-fail-by-run.csv
-sqlite-utils memory data/enrich/enrich_puzzles_puzzle_storm.csv "$(cat src/agg/stats-first-fail-by-date.sql)" --csv \
-    > data/agg/stats-first-fail-by-date.csv
+sqlite-utils memory data/enrich/enrich_puzzles_puzzle_storm.csv "$(cat src/agg/dashboard_by_session.sql)" --csv \
+    > data/agg/dashboard_by_session.csv
+
+# insert
+sqlite-utils insert lichess.db puzzles data/enrich/enrich_puzzles_puzzle_storm.csv --csv --detect-types
+sqlite-utils insert lichess.db dashboard data/agg/dashboard_by_session.csv --csv --detect-types

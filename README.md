@@ -5,6 +5,8 @@ At the moment I focus on [Puzzle Storm](https://lichess.org/storm) puzzles, but 
 
 ## Setup
 
+Run with `datasette lichess.db`.
+
 ### Local
 
 [Datasette](https://datasette.io/) is used to analyse the data and is used in combination with `sqlite-utils` (to convert CSV to `sqlite` databases):
