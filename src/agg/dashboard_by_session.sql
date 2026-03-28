@@ -14,6 +14,7 @@ score as (
       row_number() over (partition by date order by time asc) as [session],
       count(*) as score
     from enrich_puzzles_puzzle_storm
+    where result = 'good'
     group by run_id
 )
 select
