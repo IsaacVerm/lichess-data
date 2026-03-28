@@ -1,0 +1,8 @@
+url,date,reason_failure
+https://lichess.org/training/kAKFx,2026-03-28,should have prioritised check
+https://lichess.org/training/W9wDx,2026-03-28,played too fast
+https://lichess.org/training/EV0fT,2026-03-28,played too fast
+https://lichess.org/training/vyvI6,2026-03-28,missed fork because too focused on rook fork bishop
+https://lichess.org/training/Uf2nc,2026-03-28,multiple ways to check and just picked one without visualising till the end
+https://lichess.org/training/NUeyv,2026-03-28,played too fast
+https://lichess.org/training/kas1r,2026-03-28,missed queen was overworked
